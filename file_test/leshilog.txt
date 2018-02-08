@@ -1,0 +1,2903 @@
+﻿
+shark_32@msn.com
+
+
+
+
+[4817653][UART RECV: Uart
+Recv.c:  53] buf[0] = aa
+[4817673][REMOTE: remote_client.c:  50] 
+server down :{ "data": { "degree": 200, "staySecond": 15, "cmd": "on" }, "cmd": "execute" }
+
+[4817686][REMOTE: remote_client.c:  80] 
+ data :{ "degree": 200, "staySecond": 15, "cmd": "on" }
+
+[4817696][REMOTE: remote_client.c:  97] temp=200
+[4817700][REMOTE: remote_client.c: 101] stayTime=15
+[4817705][REMOTE: remote_client.c:  86] cmd=on
+[4817710][REMOTE: remote_client.c:  93] OnOff=1
+[4817715][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 01 00 00 00 00 8D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 ED 
+[4817729][DEVICE: device.c: 425] on off:1
+[4817733][DEVICE: device.c: 438] left on off:0
+[4817738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 37580 bytes
+[4817746][DEVICE: device.c: 441] fire status:0
+[4817750][DEVICE: device.c: 443] power:0
+[4817754][DEVICE: device.c: 448] set temp:141
+[4817759][DEVICE: device.c: 456] 
+left Time:0
+
+[4817763][DEVICE: device.c: 459] ~~~~start post~~~~
+[4817768][DEVICE: device.c: 229] targetTemp=200,stayTime=15,id=0
+[4817775][DEVICE: device.c: 212] ~~~~~~~~~auto~~~~~~~~~
+[4817780][DEVICE: device.c: 271] ************++++++*******
+[4817786][REMOTE: remote_client.c: 129] data send to server:{"device":"VANWARD_18F4","cmd":"attr","attr":[{"id":"temperature","value":"141"},{"id":"status","value":"0"},{"id":"ErroCode","value":"0"}]}
+ , len=142
+[4817807][REMOTE: remote_client.c:  58] text=execute
+[4817812][REMOTE: remote_client.c:  61] 11111111111111
+[4817817][REMOTE: remote_client.c: 120] ++++++++++++down ctrl cmd send++++++++++
+[4817825][DEVICE: device.c:  89] onOff:1
+[4817829][DEVICE: device.c: 101] set time:15 ^^^^^^
+[4817851][DEVICE: device.c: 113] send to device:>>|55 55 09 03 01 00 01 00 00 C8 00 0F 00 00 01 8F 
+[4818750][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4818782][DEVICE: device.c: 381] re
+ceive from device:AA AA 09 01 01 00 01 00 00 03 A5 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 17 
+[4818797][DEVICE: device.c: 425] on off:1
+[4822738][DEVICE: device.c: 144] _uart_reload_t
+imer_handler, Memory 38204 bytes
+[4823085][DEVICE: device.c: 433] ---------------无火--------------
+[4823128][UART RECV: UartRecv.c:  53] buf
+[0] = aa
+[4823161][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 00 0D 9E 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1A 
+[4823175][DEVICE: device.c: 425] on off:1
+[4824179][DEVICE: device.c: 433] -----
+----------无火--------------
+[4824223][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4824255][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 00 0D C7 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 43 
+[4824270][DEVICE: device.c: 425] on off:1
+[4825274][DEVICE: device.c: 433] ---------------无火--------------
+[4825317][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4825350][
+DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 00 0D BF 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3B 
+[4825365][DEVICE: device.c: 425] on off:1
+[4826369][DEVICE: device.c: 433] -------
+--------无火--------------
+[4826411][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4826444][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 00 0D 83 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 FF 
+[4826458][DEVICE: device.c: 425] on off:1
+[4827462]
+[DEVICE: device.c: 433] ---------------无火--------------
+[4827506][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4827539][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 45 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C2 
+[4827553][DEVICE: device.c: 425] on off:1
+[4827738][DEVICE: device.c: 144] _uart_reload_timer
+_handler, Memory 38204 bytes
+[4828557][DEVICE: device.c: 438] left on off:1
+[4828561][DEVI
+CE: device.c: 441] fire status:1
+[4828566][DEVICE: device.c: 443] power:13
+[4828570][DEVICE: device.c: 448] set temp:69
+[4828574][DEVICE: device.c: 456] 
+left Time:15
+
+[4828600][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4828632][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D CB 00 00 0E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 47 
+[4828647][DEVICE: device.c: 425] on off:1
+[4829651][DEVICE: dev
+ice.c: 438] left on off:1
+[4829655][DEVICE: device.c: 441] fire status:1
+[4829660][DEVICE: device.c: 443] power:13
+[4829664][DEVICE: device.c: 448] set temp:203
+[4829668][DEVICE: device.c: 456] 
+left Time:14
+
+[4829695][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4829727][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 8F 00 00 0D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0A 
+[4829741][DEVICE: device.c: 425] on off:1
+[4830746][DEVICE: device.c: 438] left on off:1
+[4830750][DEVICE: device.c
+: 441] fire status:1
+[4830755][DEVICE: device.c: 443] power:13
+[4830759][DEVICE: device.c: 448] set temp:143
+[4830763][DEVICE: device.c: 456] 
+left Time:13
+
+[4830789][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4830822][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 4D 00 00 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C7 
+[4830837][DEVICE: device.c: 425] on off:1
+[4831841][DEVICE: devi
+ce.c: 438] left on off:1
+[4831845][DEVICE: device.c: 441] fire status:1
+[4831850][DEVICE: device.c: 443] power:13
+[4831854][DEVICE: device.c: 448] set temp:77
+[4831858][DEVICE: device.c: 456] 
+left Time:12
+
+[4831884][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4831916][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 6F 00 00 0B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E8 
+[4831930][DEVICE: device.c: 425] on off:1
+[4832738][DEVICE: device.c: 144] _uart_reload_timer_ha
+ndler, Memory 38204 bytes
+[4832934][DEVICE: device.c: 438] left on off:1
+[4832938][DEVICE: device.c: 441] fire status:1
+[4832943][DEVICE: device.c: 443] power:13
+[4832947][DEVICE: device.c: 448] set temp:111
+[4832951][DEVICE: device.c: 456] 
+left Time:11
+
+[4832978][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4833011][DEVICE: devic
+e.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 59 00 00 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D1 
+[4833025][DEVICE: device.c: 425] on off:1
+[4834029][DEVICE: device.c: 438] left on off:
+1
+[4834033][DEVICE: device.c: 441] fire status:1
+[4834038][DEVICE: device.c: 443] power:13
+[4834042][DEVICE: device.c: 448] set temp:89
+[4834046][DEVICE: device.c: 456] 
+left Time:10
+
+[4834072][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4834105][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 32 00 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 A9 
+[4834119][DEVICE: device.c: 425] on off:1
+[483
+5123][DEVICE: device.c: 438] left on off:1
+[4835127][DEVICE: device.c: 441] fire status:1
+[4835132][DEVICE: device.c: 443] power:13
+[4835136][DEVICE: device.c: 448] set temp:50
+[4835140][DEVICE: device.c: 456] 
+left Time:9
+
+[4835166][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4835199][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 3B 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 B1 
+[4835214][DEVICE: device.c: 425] on off:1
+[4836218][DEVICE: device.c: 438] left on off:1
+[4836222]
+[DEVICE: device.c: 441] fire status:1
+[4836227][DEVICE: device.c: 443] power:13
+[4836231][DEVICE: device.c: 448] set temp:59
+[4836235][DEVICE: device.c: 456] 
+left Time:8
+
+[4836261][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4836294][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D C1 00 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 36 
+[4836308][DEVICE: device.c: 425] on off:1
+[4837312][DEVICE
+: device.c: 438] left on off:1
+[4837316][DEVICE: device.c: 441] fire status:1
+[4837321][DEVICE: device.c: 443] power:13
+[4837325][DEVICE: device.c: 448] set temp:193
+[4837329][DEVICE: device.c: 456] 
+left Time:7
+
+[4837355][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4837388][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 65 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D9 
+[4837402][DEVICE: device.c: 425] on off:1
+[4837738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 
+38204 bytes
+[4838406][DEVICE: device.c: 438] left on off:1
+[4838410][DEVICE: device.c: 441
+] fire status:1
+[4838415][DEVICE: device.c: 443] power:13
+[4838419][DEVICE: device.c: 448] set temp:101
+[4838423][DEVICE: device.c: 456] 
+left Time:6
+
+[4838450][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4838483][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 47 00 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 BA 
+[4838497][DEVICE: device.c: 425] on off:1
+[4839501][DEVICE: device.c: 
+438] left on off:1
+[4839505][DEVICE: device.c: 441] fire status:1
+[4839510][DEVICE: device.c: 443] power:13
+[4839514][DEVICE: device.c: 448] set temp:71
+[4839518][DEVICE: device.c: 456] 
+left Time:5
+
+[4839544][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4839577][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 43 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 B5 
+[4839591][DEVICE: device.c: 425] on off:1
+[4840595][DEVICE: device.c: 438] left on off:1
+[4840599][DEVICE: device.c: 441]
+ fire status:1
+[4840604][DEVICE: device.c: 443] power:13
+[4840608][DEVICE: device.c: 448] set temp:67
+[4840612][DEVICE: device.c: 456] 
+left Time:4
+
+[4840639][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4840671][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D DC 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 4D 
+[4840685][DEVICE: device.c: 425] on off:1
+[4841689][DEVICE: device.c: 438] left on off:1
+[4
+841693][DEVICE: device.c: 441] fire status:1
+[4841698][DEVICE: device.c: 443] power:13
+[4841702][DEVICE: device.c: 448] set temp:220
+[4841706][DEVICE: device.c: 456] 
+left Time:3
+
+[4841732][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4841764][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 28 01 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 8D 
+[4841779][DEVICE: device.c: 425] on off:1
+[4842738][DEVICE: device.c: 144] _uart_reload_timer_handler, 
+Memory 38204 bytes
+[4842783][DEVICE: device.c: 438] left on off:1
+[4842787][DEVICE: device.c: 441] fire status:1
+[4842792][DEVICE: device.c: 443] power:1
+[4842796][DEVICE: device.c: 448] set temp:296
+[4842800][DEVICE: device.c: 456] 
+left Time:2
+
+[4842826][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4842858][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 99 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 FC 
+[4842872][DEVICE: device.c: 425] on off:1
+[4843876][DEVICE: device.c: 438] left on off:1
+[4843880][DEVICE: device.c: 441] fi
+re status:1
+[4843885][DEVICE: device.c: 443] power:1
+[4843889][DEVICE: device.c: 448] set temp:153
+[4843893][DEVICE: device.c: 456] 
+left Time:1
+
+[4843922][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4843954][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 75 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E3 
+[4843969][DEVICE: device.c: 425] on off:1
+[4844973][
+DEVICE: device.c: 438] left on off:1
+[4844977][DEVICE: device.c: 441] fire status:1
+[4844982][DEVICE: device.c: 443] power:13
+[4844986][DEVICE: device.c: 448] set temp:117
+[4844990][DEVICE: device.c: 456] 
+left Time:0
+
+[4844995][DEVICE: device.c: 459] ~~~~start post~~~~
+[4845000][DEVICE: device.c: 229] targetTemp=200,stayTime=15,id=1
+[4845006][DEVICE: device.c: 235] ---------------------
+[4845011][DEVICE: device.c: 207] ~~~~~~~~~done~~~~~~~erro=0~~
+[4845018][DEVICE: device.c: 271] ************++++++*******
+[4845024][REMOTE: remote_client.c: 129] data send to server:{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"117"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+ , len=142
+[4845044][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4845049][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 AD 
+[4845063][DEVICE: device.c: 425] on off:1
+[4845068][DEVICE: device.c: 438] left on off:1
+[4845072][DEVICE: device.c: 441] fire status:1
+[4845077][DEVICE: device.c: 443] power:13
+[4845081][DEVICE: device.c: 448] set temp:63
+[4845085][DEVICE: device.c: 456] 
+left Time:0
+
+[4845090][DEVICE: device.c: 459] ~~~~start post~~~~
+[4845095][DEVICE: device.c: 229] targetTemp=200,stayTime=15,id=0
+[4845101][DEVICE: device.c: 212] ~~~~~~~~~auto~~~~~~~~~
+[4845107][DEVICE: device.c: 271] ************++++++*******
+[4845113][REMOTE: remote_client.c: 129] data send to server:{"device":"VANWARD_18F4","cmd":"attr","attr":[{"id":"temperature","value":"63"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+ , len=141
+[4845134][REMOTE: remote_client.c:  50] 
+server down :{ "data": { "degree": 190, "staySecond": 6, "cmd": "degree" }, "cmd": "execute" }
+
+[4845147][REMOTE: remote_client.c:  80] 
+ data :{ "degree": 190, "staySecond": 6, "cmd": "degree" }
+
+[4845157][REMOTE: remote_client.c:  97] temp=190
+[4845162][REMOTE: remote_client.c: 101] stayTime=6
+[4845166][REMOTE: remote_client.c:  86] cmd=degree
+[4845171][REMOTE: remote_client.c:  93] OnOff=1
+[4845176][REMOTE: remote_client.c:  58] text=execute
+[4845181][REMOTE: remote_client.c:  61] 11111111111111
+[4845187][REMOTE: remote_client.c: 120] ++++++++++++down ctrl cmd send++++++++++
+[4845195][DEVICE: device.c:  89] onOff:1
+[4845199][DEVICE: device.c: 101] set time:6 ^^^^^^
+[4845221][DEVICE: device.c: 113] send to device:>>|55 55 09 03 01 00 01 00 00 BE 00 06 00 00 01 7C 
+[4846110][UART RECV: UartRecv.c:  5
+3] buf[0] = aa
+[4846143][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 4A 00 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 BD 
+[4846157][DEVICE: device.c: 425] on off:1
+[4846161][DEVICE: device.c: 438] left on off:1
+[4846166][DEVICE: device.c: 441] fire status:1
+[4846171][DEVICE: device.c: 443] power:13
+[4846175][DEVICE: device.c: 448] set temp:74
+[4846179][DEVICE: device.c: 456] 
+left Time:5
+
+[4847205][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4847237][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 0
+0 01 00 01 0D 50 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C2 
+[4847251][DEVICE: device.c: 425] on off:1
+[4847255][DEVICE: device.c: 438] left on off:1
+[4847260][DEVICE: device.c: 441] fire status:1
+[4847265][DEVICE: device.c: 443] power:13
+[4847269][DEVICE: device.c: 448] set temp:80
+[4847273][DEVICE: device.c: 456] 
+left Time:4
+
+[4847738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memo
+ry 38204 bytes
+[4848299][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4848332][DEVICE: dev
+ice.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 53 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C4 
+[4848346][DEVICE: device.c: 425] on off:1
+[4848350][DEVICE: device.c: 438] left on off:1
+[4848355][DEVICE: device.c: 441] fire status:1
+[4848359][DEVICE: device.c: 443] power:13
+[4848363][DEVICE: device.c: 448] set temp:83
+[4848368][DEVICE: device.c: 456] 
+left Time:3
+
+[4849
+393][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4849426][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 68 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D8 
+[4849440][DEVICE: device.c: 425] on off:1
+[4849444][DEVICE: device.c: 438] left on off:1
+[4849449][DEVICE: device.c: 441] fire status:1
+[4849453][DEVICE: device.c: 443] power:13
+[4849457][DEVICE: device.c: 448] set temp:104
+[4849462][DEVICE: device.c: 456] 
+left Time:2
+
+[4850488][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4850520][DEVICE: device.c: 381] receive fr
+om device:AA AA 09 01 01 00 01 00 01 0D 7C 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 EB 
+[4850534][DEVICE: device.c: 425] on off:1
+[4850538][DEVICE: device.c: 438] left on off:1
+[4850543][DEVICE: device.c: 441] fire status:1
+[4850547][DEVICE: device.c: 443] power:13
+[4850552][DEVICE: device.c: 448] set temp:124
+[4850556][DEVICE: device.c: 456] 
+left Time:1
+
+[4851580][UART RECV: UartRecv.c:  53] b
+uf[0] = aa
+[4851613][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 DE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 40 
+[4851627][DEVICE: device.c: 425] on off:1
+[4851631][DEVICE: device.c: 438] left on off:1
+[4851636][DEVICE: device.c: 441] fire status:1
+[4851640][DEVICE: device.c: 443] power:1
+[4851644][DEVICE: device.c: 448] set temp:222
+[4851649][DEVICE: device.c: 456] 
+left Time:0
+
+[4851653][DEVICE: device.c: 459] ~~~~start post~~~~
+[4851659][DEVICE: device.c: 229] targetTemp=190,stayTime=6,id=1
+[4851665][DEVICE: device.c: 235] ---------------------
+[4851670][DEVICE: device.c: 207] ~~~~~~~~~done~~~~~~~erro=0~~
+[4851676][DEVICE: device.c: 271] ************++++++*******
+[4851682][REMOTE: remote_client.c: 129] data send to server:{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"222"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+ , len=142
+[4851725][REMOTE: remote_client.c:  50] 
+server down :{ "data": { "degree": 135, "staySecond": 48, "cmd": "degree" }, "cmd": "execute" }
+
+[4851738][REMOTE: remote_client.c:  80] 
+ data :{ "degree": 135, "staySecond": 48, "cmd": "degree" }
+
+[4851748][REMOTE: remote_client.c:  97] temp=135
+[4851753][REMOTE: remote_client.c: 101] stayTime=48
+[4851758][REMOTE: remote_client.c:  86] cmd=degree
+[4851763][REMOTE: remote_client.c:  93] OnOff=1
+[4851767][REMOTE: remote_client.c:  58] text=execute
+[4851773][REMOTE: remote_client.c:  61] 11111111111111
+[4851778][REMOTE: remote_client.c: 120] ++++++++++++down ctrl cmd send++++++++++
+[4851786][DEVICE: device.c:  89] onOff:1
+[4851790][DEVICE: device.c: 101] set time:48 ^^^^^^
+[4851812][DEVICE: device.c: 113] send to device:>>|55 55 09 03 01 00 01 00 00 87 00 30 00 00 01 6F 
+[4852675][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4852707][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 
+01 00 01 01 B5 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 17 
+[4852722][DEVICE: device.c: 425] on off:1
+[4852726][DEVICE: device.c: 438] left on off:1
+[4852730][DEVICE: device.c: 441] fire status:1
+[4852735][DEVICE: device.c: 443] power:1
+[4852739][DEVICE: device.c: 448] set temp:181
+[4852744][DEVICE: device.c: 456] 
+left Time:0
+
+[4852748][DEVICE: device.c: 459] ~~~~start post~~~~
+[4852753][DEVICE: device.c: 229] targetTemp=135,stayTime=48,id=1
+[4852760][DEVICE: device.c: 235] ---------------------
+[4852765][DEVICE: device.c: 207] ~~~~~~~~~done~~~~~~~erro=0~~
+[4852771][DEVICE: device.c: 271] ************++++++*******
+[4852777][REMOTE: remote_client.c: 129] data send to server:{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"181"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+ , len=142
+[4852798][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 35220 bytes
+[4852822][REMOTE: remote_client.c:  50] 
+server down :{ "data": { "degree": 135, "staySecond": 85, "cmd": "degree" }, "cmd": "execute" }
+
+[4852835][REMOTE: remote_client.c:  80] 
+ data :{ "degree": 135, "staySecond": 85, "cmd": "degree" }
+
+[4852845][REMOTE: remote_client.c:  97] temp=135
+[4852850][REMOTE: remote_client.c: 101] stayTime=85
+[4852855][REMOTE: remote_client.c:  86] cmd=degree
+[4852860][REMOTE: remote_client.c:  93] OnOff=1
+[4852864][REMOTE: remote_client.c:  58] text=execute
+[4852870][REMOTE: remote_client.c:  61] 11111111111111
+[4852875][REMOTE: remote_client.c: 120] ++++++++++++down ctrl cmd send++++++++++
+[4852883][DEVICE: device.c:  89] onOff:1
+[4852887][DEVICE: device.c: 101] set time:85 ^^^^^^
+[4852909][DEVICE: device.c: 113] send to device:>>|55 55 09 03 01 00 01 00 00 87 00 55 00 00 01 94 
+[4853769][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4853802][DEVICE: device.c
+: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 89 00 00 54 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3F 
+[4853816][DEVICE: device.c: 425] on off:1
+[4853820][DEVICE: device.c: 438] left on off:1
+[4853825][DEVICE: device.c: 441] fire status:1
+[4853829][DEVICE: device.c: 443] power:1
+[4853833][DEVICE: device.c: 448] set temp:137
+[4853838][DEVICE: device.c: 456] 
+left Time:84
+
+[4854863][UA
+RT RECV: UartRecv.c:  53] buf[0] = aa
+[4854895][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 4A 00 00 53 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 FF 
+[4854910][DEVICE: device.c: 425] on off:1
+[4854914][DEVICE: device.c: 438] left on off:1
+[4854918][DEVICE: device.c: 441] fire status:1
+[4854923][DEVICE: device.c: 443] power:1
+[4854927][DEVICE: device.c: 448] set temp:74
+[4854931][DEVICE: device.c: 456] 
+left Time:83
+
+[4855958][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4855990][DEVICE: device.c: 381] receive from devic
+e:AA AA 09 01 01 00 01 00 01 01 EB 00 00 52 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 9F 
+[4856005][DEVICE: device.c: 425] on off:1
+[4856009][DEVICE: device.c: 438] left on off:1
+[4856013][DEVICE: device.c: 441] fire status:1
+[4856018][DEVICE: device.c: 443] power:1
+[4856022][DEVICE: device.c: 448] set temp:235
+[4856027][DEVICE: device.c: 456] 
+left Time:82
+
+[4857052][UART RECV: UartR
+ecv.c:  53] buf[0] = aa
+[4857085][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 B3 00 00 51 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 66 
+[4857099][DEVICE: device.c: 425] on off:1
+[4857103][DEVICE: device.c: 438] left on off:1
+[4857108][DEVICE: device.c: 441] fire status:1
+[4857112][DEVICE: device.c: 443] power:1
+[4857116][DEVICE: device.c: 448] set temp:179
+[4857121][DEVICE: device.c: 456] 
+left Time:81
+
+[4857738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 382
+04 bytes
+[4858147][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4858179][DEVICE: device.c: 381] receive from device:AA 
+AA 09 01 01 00 01 00 01 01 15 01 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C8 
+[4858193][DEVICE: device.c: 425] on off:1
+[4858197][DEVICE: device.c: 438] left on off:1
+[4858202][DEVICE: device.c: 441] fire status:1
+[4858207][DEVICE: device.c: 443] power:1
+[4858211][DEVICE: device.c: 448] set temp:277
+[4858215][DEVICE: device.c: 456] 
+left Time:80
+
+[4859241][UART RECV: UartRecv.c:  53] buf
+[0] = aa
+[4859273][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 8F 00 00 4F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 40 
+[4859287][DEVICE: device.c: 425] on off:1
+[4859291][DEVICE: device.c: 438] left on off:1
+[4859296][DEVICE: device.c: 441] fire status:1
+[4859300][DEVICE: device.c: 443] power:1
+[4859305][DEVICE: device.c: 448] set temp:143
+[4859309][DEVICE: device.c: 456] 
+left Time:79
+
+[4860336][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4860369][DEVICE: device.c: 381] receive from device:A
+A AA 09 01 01 00 01 00 01 0D 63 00 00 4E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1F 
+[4860384][DEVICE: device.c: 425] on off:1
+[4860388][DEVICE: device.c: 438] left on off:1
+[4860392][DEVICE: device.c: 441] fire status:1
+[4860397][DEVICE: device.c: 443] power:13
+[4860401][DEVICE: device.c: 448] set temp:99
+[4860406][DEVICE: device.c: 456] 
+left Time:78
+
+[4861431][UART RECV: UartRecv.c:  53] b
+uf[0] = aa
+[4861463][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 37 00 00 4D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 F2 
+[4861478][DEVICE: device.c: 425] on off:1
+[4861482][DEVICE: device.c: 438] left on off:1
+[4861486][DEVICE: device.c: 441] fire status:1
+[4861491][DEVICE: device.c: 443] power:13
+[4861495][DEVICE: device.c: 448] set temp:55
+[4861500][DEVICE: device.c: 456] 
+left Time:77
+
+[486252
+4][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4862556][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 8A 00 00 4C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 44 
+[4862571][DEVICE: device.c: 425] on off:1
+[4862575][DEVICE: device.c: 438] left on off:1
+[4862579][DEVICE: device.c: 441] fire status:1
+[4862584][DEVICE: device.c: 443] power:13
+[4862588][DEVICE: device.c: 448] set temp:138
+[4862593][DEVICE: device.c: 456] 
+left Time:76
+
+[4862738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4863619][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4863651][DEVICE: device.c: 381] rec
+eive from device:AA AA 09 01 01 00 01 00 01 0D B8 00 00 4B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 71 
+[4863666][DEVICE: device.c: 425] on off:1
+[4863670][DEVICE: device.c: 438] left on off:1
+[4863674][DEVICE: device.c: 441] fire status:1
+[4863679][DEVICE: device.c: 443] power:13
+[4863683][DEVICE: device.c: 448] set temp:184
+[4863688][DEVICE: device.c: 456] 
+left Time:75
+
+[4864712][UART RECV: UartRe
+cv.c:  53] buf[0] = aa
+[4864745][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 8F 00 00 4A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3B 
+[4864760][DEVICE: device.c: 425] on off:1
+[4864764][DEVICE: device.c: 438] left on off:1
+[4864769][DEVICE: device.c: 441] fire status:1
+[4864773][DEVICE: device.c: 443] power:1
+[4864777][DEVICE: device.c: 448] set temp:143
+[4864782][DEVICE: device.c: 456] 
+left Time:74
+
+[4865806][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4865839][DEVICE: device.c: 381] receive from de
+vice:AA AA 09 01 01 00 01 00 01 01 4D 00 00 49 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 F8 
+[4865854][DEVICE: device.c: 425] on off:1
+[4865858][DEVICE: device.c: 438] left on off:1
+[4865862][DEVICE: device.c: 441] fire status:1
+[4865867][DEVICE: device.c: 443] power:1
+[4865871][DEVICE: device.c: 448] set temp:77
+[4865875][DEVICE: device.c: 456] 
+left Time:73
+
+[4866902][UART RECV: UartRecv.
+c:  53] buf[0] = aa
+[4866936][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D ED 00 00 48 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 A3 
+[4866950][DEVICE: device.c: 425] on off:1
+[4866954][DEVICE: device.c: 438] left on off:1
+[4866959][DEVICE: device.c: 441] fire status:1
+[4866963][DEVICE: device.c: 443] power:13
+[4866967][DEVICE: device.c: 448] set temp:237
+[4866972][DEVICE: device.c: 456] 
+left Time:72
+
+[4867738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+
+[4867997][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4868029][DEVICE: device.c: 381] receive from device:AA AA 09 
+01 01 00 01 00 01 0D B5 00 00 47 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 6A 
+[4868043][DEVICE: device.c: 425] on off:1
+[4868048][DEVICE: device.c: 438] left on off:1
+[4868052][DEVICE: device.c: 441] fire status:1
+[4868057][DEVICE: device.c: 443] power:13
+[4868061][DEVICE: device.c: 448] set temp:181
+[4868065][DEVICE: device.c: 456] 
+left Time:71
+
+[4869089][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4869122][DEVICE: device.c: 381] re
+ceive from device:AA AA 09 01 01 00 01 00 01 01 CA 00 00 46 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 72 
+[4869136][DEVICE: device.c: 425] on off:1
+[4869140][DEVICE: device.c: 438] left on off:1
+[4869145][DEVICE: device.c: 441] fire status:1
+[4869150][DEVICE: device.c: 443] power:1
+[4869154][DEVICE: device.c: 448] set temp:202
+[4869158][DEVICE: device.c: 456] 
+left Time:70
+
+[4870184][UART 
+RECV: UartRecv.c:  53] buf[0] = aa
+[4870216][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 6A 00 00 45 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 11 
+[4870230][DEVICE: device.c: 425] on off:1
+[4870235][DEVICE: device.c: 438] left on off:1
+[4870239][DEVICE: device.c: 441] fire status:1
+[4870244][DEVICE: device.c: 443] power:1
+[4870248][DEVICE: device.c: 448] set temp:106
+[4870252][DEVICE: device.c: 456] 
+left Time:69
+
+[4871281][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4871313][DEVICE: device.
+c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 65 00 00 44 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 17 
+[4871327][DEVICE: device.c: 425] on off:1
+[4871331][DEVICE: device.c: 438] left on off:1
+[4871336][DEVICE: device.c: 441] fire status:1
+[4871341][DEVICE: device.c: 443] power:13
+[4871345][DEVICE: device.c: 448] set temp:101
+[4871349][DEVICE: device.c: 456] 
+left Time:68
+
+[4872374][UART
+ RECV: UartRecv.c:  53] buf[0] = aa
+[4872407][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 38 00 00 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E9 
+[4872421][DEVICE: device.c: 425] on off:1
+[4872425][DEVICE: device.c: 438] left on off:1
+[4872430][DEVICE: device.c: 441] fire status:1
+[4872434][DEVICE: device.c: 443] power:13
+[4872438][DEVICE: device.c: 448] set temp:56
+[4872443][DEVICE: device.c: 456] 
+left Time:67
+
+[4872738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4873467][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4873500][DEVICE: device.c: 381] receive from device:AA AA 0
+9 01 01 00 01 00 01 0D 7A 00 00 42 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 2A 
+[4873514][DEVICE: device.c: 425] on off:1
+[4873518][DEVICE: device.c: 438] left on off:1
+[4873523][DEVICE: device.c: 441] fire status:1
+[4873527][DEVICE: device.c: 443] power:13
+[4873531][DEVICE: device.c: 448] set temp:122
+[4873536][DEVICE: device.c: 456] 
+left Time:66
+
+[4874563][UART RECV: Uart
+Recv.c:  53] buf[0] = aa
+[4874595][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 42 00 00 41 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 F1 
+[4874610][DEVICE: device.c: 425] on off:1
+[4874614][DEVICE: device.c: 438] left on off:1
+[4874618][DEVICE: device.c: 441] fire status:1
+[4874623][DEVICE: device.c: 443] power:13
+[4874627][DEVICE: device.c: 448] set temp:66
+[4874632][DEVICE: device.c: 456] 
+left Time:65
+
+[4875657][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4875689][DEVICE: device.c: 381] receive from device:AA
+ AA 09 01 01 00 01 00 01 0D B6 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 64 
+[4875704][DEVICE: device.c: 425] on off:1
+[4875708][DEVICE: device.c: 438] left on off:1
+[4875712][DEVICE: device.c: 441] fire status:1
+[4875717][DEVICE: device.c: 443] power:13
+[4875721][DEVICE: device.c: 448] set temp:182
+[4875726][DEVICE: device.c: 456] 
+left Time:64
+
+[4876751][UART RECV: UartRecv.c:  53] buf[0]
+ = aa
+[4876784][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 60 00 00 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0D 
+[4876798][DEVICE: device.c: 425] on off:1
+[4876802][DEVICE: device.c: 438] left on off:1
+[4876807][DEVICE: device.c: 441] fire status:1
+[4876811][DEVICE: device.c: 443] power:13
+[4876816][DEVICE: device.c: 448] set temp:96
+[4876820][DEVICE: device.c: 456] 
+left Time:63
+
+[4877738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[
+4877846][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4877878][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D D5 00 00 3E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 81 
+[4877892][DEVICE: device.c: 425] on off:1
+[4877896][DEVICE: device.c: 438] left on off:1
+[4877901][DEVICE: device.c: 441] fire status:1
+[4877906][DEVICE: device.c: 443] power:13
+[4877910][DEVICE: device.c: 448] set temp:213
+[4877914][DEVICE: device.c: 456] 
+left Time:62
+
+[4878940][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4878972][DEVICE: device.c: 381] r
+eceive from device:AA AA 09 01 01 00 01 00 01 0D 70 00 00 3D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1B 
+[4878987][DEVICE: device.c: 425] on off:1
+[4878991][DEVICE: device.c: 438] left on off:1
+[4878996][DEVICE: device.c: 441] fire status:1
+[4879000][DEVICE: device.c: 443] power:13
+[4879004][DEVICE: device.c: 448] set temp:112
+[4879009][DEVICE: device.c: 456] 
+left Time:61
+
+[4880034]
+[UART RECV: UartRecv.c:  53] buf[0] = aa
+[4880067][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 71 00 00 3C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1B 
+[4880081][DEVICE: device.c: 425] on off:1
+[4880085][DEVICE: device.c: 438] left on off:1
+[4880090][DEVICE: device.c: 441] fire status:1
+[4880094][DEVICE: device.c: 443] power:13
+[4880098][DEVICE: device.c: 448] set temp:113
+[4880103][DEVICE: device.c: 456] 
+left Time:60
+
+[4881128][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4881161][DEVICE: device.c: 381] receive from devi
+ce:AA AA 09 01 01 00 01 00 01 0D 80 00 00 3B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 29 
+[4881175][DEVICE: device.c: 425] on off:1
+[4881179][DEVICE: device.c: 438] left on off:1
+[4881184][DEVICE: device.c: 441] fire status:1
+[4881189][DEVICE: device.c: 443] power:13
+[4881193][DEVICE: device.c: 448] set temp:128
+[4881197][DEVICE: device.c: 456] 
+left Time:59
+
+[4882223][UART RECV: Uart
+Recv.c:  53] buf[0] = aa
+[4882255][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 42 00 00 3A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 EA 
+[4882269][DEVICE: device.c: 425] on off:1
+[4882274][DEVICE: device.c: 438] left on off:1
+[4882278][DEVICE: device.c: 441] fire status:1
+[4882283][DEVICE: device.c: 443] power:13
+[4882287][DEVICE: device.c: 448] set temp:66
+[4882292][DEVICE: device.c: 456] 
+left Time:58
+
+[4882738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4883317][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4883350][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 
+00 01 00 01 0D 5B 00 00 39 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 02 
+[4883364][DEVICE: device.c: 425] on off:1
+[4883368][DEVICE: device.c: 438] left on off:1
+[4883373][DEVICE: device.c: 441] fire status:1
+[4883377][DEVICE: device.c: 443] power:13
+[4883381][DEVICE: device.c: 448] set temp:91
+[4883386][DEVICE: device.c: 456] 
+left Time:57
+
+[4884411][UART RECV: UartRecv.c:  53] bu
+f[0] = aa
+[4884444][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 33 00 00 38 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D9 
+[4884458][DEVICE: device.c: 425] on off:1
+[4884462][DEVICE: device.c: 438] left on off:1
+[4884467][DEVICE: device.c: 441] fire status:1
+[4884471][DEVICE: device.c: 443] power:13
+[4884476][DEVICE: device.c: 448] set temp:51
+[4884480][DEVICE: device.c: 456] 
+left Time:56
+
+[4885506][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4885538][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D DB
+ 00 00 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 80 
+[4885552][DEVICE: device.c: 425] on off:1
+[4885556][DEVICE: device.c: 438] left on off:1
+[4885561][DEVICE: device.c: 441] fire status:1
+[4885566][DEVICE: device.c: 443] power:13
+[4885570][DEVICE: device.c: 448] set temp:219
+[4885574][DEVICE: device.c: 456] 
+left Time:55
+
+[4886600][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4886632][DEVICE: device.c: 38
+1] receive from device:AA AA 09 01 01 00 01 00 01 0D B1 00 00 36 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 55 
+[4886647][DEVICE: device.c: 425] on off:1
+[4886651][DEVICE: device.c: 438] left on off:1
+[4886655][DEVICE: device.c: 441] fire status:1
+[4886660][DEVICE: device.c: 443] power:13
+[4886664][DEVICE: device.c: 448] set temp:177
+[4886669][DEVICE: device.c: 456] 
+left Time:54
+
+[4887692][UART RECV: UartRecv.c:  53] buf[0
+] = aa
+[4887725][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 16 01 00 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 AE 
+[4887739][DEVICE: device.c: 425] on off:1
+[4887743][DEVICE: device.c: 438] left on off:1
+[4887748][DEVICE: device.c: 441] fire status:1
+[4887752][DEVICE: device.c: 443] power:1
+[4887757][DEVICE: device.c: 448] set temp:278
+[4887761][DEVICE: device.c: 456] 
+left Time:53
+
+[4887766][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[
+4888787][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4888819][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 C6 00 00 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5C 
+[4888833][DEVICE: device.c: 425] on off:1
+[4888837][DEVICE: device.c: 438] left on off:1
+[4888842][DEVICE: device.c: 441] fire status:1
+[4888847][DEVICE: device.c: 443] power:1
+[4888851][DEVICE: device.c: 448] set temp:198
+[4888855][DEVICE: device.c: 456] 
+left Time:52
+
+[4889881][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4889914][DEVICE: device.c: 
+381] receive from device:AA AA 09 01 01 00 01 00 01 01 22 01 00 33 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 B8 
+[4889928][DEVICE: device.c: 425] on off:1
+[4889932][DEVICE: device.c: 438] left on off:1
+[4889937][DEVICE: device.c: 441] fire status:1
+[4889941][DEVICE: device.c: 443] power:1
+[4889946][DEVICE: device.c: 448] set temp:290
+[4889950][DEVICE: device.c: 456] 
+left Time:51
+
+[489
+0975][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4891008][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 60 01 00 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 F5 
+[4891022][DEVICE: device.c: 425] on off:1
+[4891026][DEVICE: device.c: 438] left on off:1
+[4891031][DEVICE: device.c: 441] fire status:1
+[4891036][DEVICE: device.c: 443] power:1
+[4891040][DEVICE: device.c: 448] set temp:352
+[4891044][DEVICE: device.c: 456] 
+left Time:50
+
+[4892069][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4892102][DEVICE: device.c: 381] receive
+ from device:AA AA 09 01 01 00 01 00 01 01 B5 00 00 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 48 
+[4892116][DEVICE: device.c: 425] on off:1
+[4892120][DEVICE: device.c: 438] left on off:1
+[4892125][DEVICE: device.c: 441] fire status:1
+[4892130][DEVICE: device.c: 443] power:1
+[4892134][DEVICE: device.c: 448] set temp:181
+[4892138][DEVICE: device.c: 456] 
+left Time:49
+
+[4892738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4893164][UART RECV: UartRecv.c
+:  53] buf[0] = aa
+[4893196][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 01 01 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 94 
+[4893210][DEVICE: device.c: 425] on off:1
+[4893214][DEVICE: device.c: 438] left on off:1
+[4893219][DEVICE: device.c: 441] fire status:1
+[4893224][DEVICE: device.c: 443] power:1
+[4893228][DEVICE: device.c: 448] set temp:257
+[4893232][DEVICE: device.c: 456] 
+left Time:48
+
+[4894258][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4894291][DEVICE: device.c: 381] receive from device:AA AA 09 0
+1 01 00 01 00 01 01 C0 00 00 2F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 51 
+[4894305][DEVICE: device.c: 425] on off:1
+[4894309][DEVICE: device.c: 438] left on off:1
+[4894314][DEVICE: device.c: 441] fire status:1
+[4894318][DEVICE: device.c: 443] power:1
+[4894323][DEVICE: device.c: 448] set temp:192
+[4894327][DEVICE: device.c: 456] 
+left Time:47
+
+[4895356][UART
+ RECV: UartRecv.c:  53] buf[0] = aa
+[4895387][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 65 00 00 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 01 
+[4895402][DEVICE: device.c: 425] on off:1
+[4895406][DEVICE: device.c: 438] left on off:1
+[4895410][DEVICE: device.c: 441] fire status:1
+[4895415][DEVICE: device.c: 443] power:13
+[4895419][DEVICE: device.c: 448] set temp:101
+[4895424][DEVICE: device.c: 456] 
+left Time:46
+
+[4896449][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4896481][DEVICE: device.c: 381] receive from d
+evice:AA AA 09 01 01 00 01 00 01 0D A5 00 00 2D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 40 
+[4896496][DEVICE: device.c: 425] on off:1
+[4896500][DEVICE: device.c: 438] left on off:1
+[4896504][DEVICE: device.c: 441] fire status:1
+[4896509][DEVICE: device.c: 443] power:13
+[4896513][DEVICE: device.c: 448] set temp:165
+[4896518][DEVICE: device.c: 456] 
+left Time:45
+
+[4897541][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4897573][DEVICE: device.c: 381] receiv
+e from device:AA AA 09 01 01 00 01 00 01 01 11 01 00 2C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 A0 
+[4897588][DEVICE: device.c: 425] on off:1
+[4897592][DEVICE: device.c: 438] left on off:1
+[4897596][DEVICE: device.c: 441] fire status:1
+[4897601][DEVICE: device.c: 443] power:1
+[4897605][DEVICE: device.c: 448] set temp:273
+[4897610][DEVICE: device.c: 456] 
+left Time:44
+
+[4897738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4898635][UART RECV: 
+UartRecv.c:  53] buf[0] = aa
+[4898668][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 C9 00 00 2B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 56 
+[4898682][DEVICE: device.c: 425] on off:1
+[4898686][DEVICE: device.c: 438] left on off:1
+[4898691][DEVICE: device.c: 441] fire status:1
+[4898695][DEVICE: device.c: 443] power:1
+[4898699][DEVICE: device.c: 448] set temp:201
+[4898704][DEVICE: device.c: 456] 
+left Time:43
+
+[4899729][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4899762][DEVICE: device.c: 381] receive from device:AA AA
+ 09 01 01 00 01 00 01 01 22 01 00 2A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 AF 
+[4899776][DEVICE: device.c: 425] on off:1
+[4899780][DEVICE: device.c: 438] left on off:1
+[4899785][DEVICE: device.c: 441] fire status:1
+[4899789][DEVICE: device.c: 443] power:1
+[4899793][DEVICE: device.c: 448] set temp:290
+[4899798][DEVICE: device.c: 456] 
+left Time:42
+
+[4900823][UART RECV: UartRecv.c:  53] bu
+f[0] = aa
+[4900856][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 D3 00 00 29 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5E 
+[4900871][DEVICE: device.c: 425] on off:1
+[4900875][DEVICE: device.c: 438] left on off:1
+[4900879][DEVICE: device.c: 441] fire status:1
+[4900884][DEVICE: device.c: 443] power:1
+[4900888][DEVICE: device.c: 448] set temp:211
+[4900893][DEVICE: device.c: 456] 
+left Time:41
+[4901918][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4901950][DEVICE: device.c: 381] receive from device:AA AA 09 0
+1 01 00 01 00 01 01 2E 01 00 28 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 B9 
+[4901965][DEVICE: device.c: 425] on off:1
+[4901969][DEVICE: device.c: 438] left on off:1
+[4901973][DEVICE: device.c: 441] fire status:1
+[4901978][DEVICE: device.c: 443] power:1
+[4901982][DEVICE: device.c: 448] set temp:302
+[4901987][DEVICE: device.c: 456] 
+left Time:40
+
+[4902738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4903012][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4903045][DEVICE: device.c
+: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 DE 00 00 27 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 67 
+[4903059][DEVICE: device.c: 425] on off:1
+[4903063][DEVICE: device.c: 438] left on off:1
+[4903068][DEVICE: device.c: 441] fire status:1
+[4903072][DEVICE: device.c: 443] power:1
+[4903077][DEVICE: device.c: 448] set temp:222
+[4903081][DEVICE: device.c: 456] 
+left Time:39
+
+[4904108][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4904140][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01
+ 00 01 0D 86 00 00 26 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1A 
+[4904155][DEVICE: device.c: 425] on off:1
+[4904159][DEVICE: device.c: 438] left on off:1
+[4904163][DEVICE: device.c: 441] fire status:1
+[4904168][DEVICE: device.c: 443] power:13
+[4904172][DEVICE: device.c: 448] set temp:134
+[4904177][DEVICE: device.c: 456] 
+left Time:38
+
+[4905202][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4905235][DEVICE: device.c: 38
+1] receive from device:AA AA 09 01 01 00 01 00 01 0D 0E 01 00 25 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 A2 
+[4905249][DEVICE: device.c: 425] on off:1
+[4905253][DEVICE: device.c: 438] left on off:1
+[4905258][DEVICE: device.c: 441] fire status:1
+[4905262][DEVICE: device.c: 443] power:13
+[4905266][DEVICE: device.c: 448] set temp:270
+[4905271][DEVICE: device.c: 456] 
+left Time:37
+
+[4906295][UART RECV:
+ UartRecv.c:  53] buf[0] = aa
+[4906328][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 8C 00 00 24 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 12 
+[4906342][DEVICE: device.c: 425] on off:1
+[4906346][DEVICE: device.c: 438] left on off:1
+[4906351][DEVICE: device.c: 441] fire status:1
+[4906355][DEVICE: device.c: 443] power:1
+[4906359][DEVICE: device.c: 448] set temp:140
+[4906364][DEVICE: device.c: 456] 
+left Time:36
+
+[4907
+388][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4907421][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 8B 00 00 23 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 10 
+[4907435][DEVICE: device.c: 425] on off:1
+[4907439][DEVICE: device.c: 438] left on off:1
+[4907444][DEVICE: device.c: 441] fire status:1
+[4907448][DEVICE: device.c: 443] power:1
+[4907452][DEVICE: device.c: 448] set temp:139
+[4907457][DEVICE: device.c: 456] 
+left Time:35
+
+[
+4907738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4908483][UART RECV: UartRecv.c:  53] buf[0] = 
+aa
+[4908516][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 4A 00 00 22 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 CE 
+[4908530][DEVICE: device.c: 425] on off:1
+[4908534][DEVICE: device.c: 438] left on off:1
+[4908539][DEVICE: device.c: 441] fire status:1
+[4908543][DEVICE: device.c: 443] power:1
+[4908547][DEVICE: device.c: 448] set temp:74
+[4908551][DEVICE: device.c: 456] 
+left Time:34
+
+[
+4909578][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4909610][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 FC 00 00 21 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 7F 
+[4909624][DEVICE: device.c: 425] on off:1
+[4909628][DEVICE: device.c: 438] left on off:1
+[4909633][DEVICE: device.c: 441] fire status:1
+[4909638][DEVICE: device.c: 443] power:1
+[4909642][DEVICE: device.c: 448] set temp:252
+[4909646][DEVICE: device.c: 456] 
+left Time:33
+
+[4910672][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4910704][DEVICE: device.c: 381] receive
+ from device:AA AA 09 01 01 00 01 00 01 01 83 00 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 05 
+[4910718][DEVICE: device.c: 425] on off:1
+[4910722][DEVICE: device.c: 438] left on off:1
+[4910727][DEVICE: device.c: 441] fire status:1
+[4910732][DEVICE: device.c: 443] power:1
+[4910736][DEVICE: device.c: 448] set temp:131
+[4910740][DEVICE: device.c: 456] 
+left Time:32
+
+[4911765][UART RECV: Ua
+rtRecv.c:  53] buf[0] = aa
+[4911797][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 87 00 00 1F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 08 
+[4911811][DEVICE: device.c: 425] on off:1
+[4911816][DEVICE: device.c: 438] left on off:1
+[4911820][DEVICE: device.c: 441] fire status:1
+[4911825][DEVICE: device.c: 443] power:1
+[4911829][DEVICE: device.c: 448] set temp:135
+[4911833][DEVICE: device.c: 456] 
+left Time:31
+
+[4912
+738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4912862][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4912894][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 48 00 00 1E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D4 
+[4912908][DEVICE: device.c: 425] on off:1
+[4912913][DEVICE: device.c: 438] left on off:1
+[4912917][DEVICE: device.c: 441] fire status:1
+[4912922][DEVICE: device.c: 443] power:13
+[4912926][DEVICE: device.c: 448] set temp:72
+[4912931][DEVICE: device.c: 456] 
+left Time:30
+
+[4913956][UART RECV:
+ UartRecv.c:  53] buf[0] = aa
+[4913988][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D E6 00 00 1D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 71 
+[4914003][DEVICE: device.c: 425] on off:1
+[4914007][DEVICE: device.c: 438] left on off:1
+[4914011][DEVICE: device.c: 441] fire status:1
+[4914016][DEVICE: device.c: 443] power:13
+[4914020][DEVICE: device.c: 448] set temp:230
+[4914025][DEVICE: device.c: 456] 
+left Time:29
+
+[4915050][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4915083][DEVICE: device.c: 381] receive from devi
+ce:AA AA 09 01 01 00 01 00 01 0A 84 00 00 1C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0B 
+[4915098][DEVICE: device.c: 425] on off:1
+[4915102][DEVICE: device.c: 438] left on off:1
+[4915106][DEVICE: device.c: 441] fire status:1
+[4915111][DEVICE: device.c: 443] power:10
+[4915115][DEVICE: device.c: 448] set temp:132
+[4915120][DEVICE: device.c: 456] 
+left Time:28
+
+[4916145][UART RECV: UartRecv.c:  53
+] buf[0] = aa
+[4916177][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0A 05 01 00 1B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 8C 
+[4916192][DEVICE: device.c: 425] on off:1
+[4916196][DEVICE: device.c: 438] left on off:1
+[4916200][DEVICE: device.c: 441] fire status:1
+[4916205][DEVICE: device.c: 443] power:10
+[4916209][DEVICE: device.c: 448] set temp:261
+[4916214][DEVICE: device.c: 456] 
+left Time:27
+
+[4917237][U
+ART RECV: UartRecv.c:  53] buf[0] = aa
+[4917270][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 88 00 00 1A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 04 
+[4917284][DEVICE: device.c: 425] on off:1
+[4917288][DEVICE: device.c: 438] left on off:1
+[4917293][DEVICE: device.c: 441] fire status:1
+[4917297][DEVICE: device.c: 443] power:1
+[4917301][DEVICE: device.c: 448] set temp:136
+[4917306][DEVICE: device.c: 456] 
+left Time:26
+
+[4917738
+][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4918332][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4918364][DEVICE: device.c: 381] receive
+ from device:AA AA 09 01 01 00 01 00 01 01 8B 00 00 19 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 06 
+[4918379][DEVICE: device.c: 425] on off:1
+[4918383][DEVICE: device.c: 438] left on off:1
+[4918387][DEVICE: device.c: 441] fire status:1
+[4918392][DEVICE: device.c: 443] power:1
+[4918396][DEVICE: device.c: 448] set temp:139
+[4918401][DEVICE: device.c: 456] 
+left Time:25
+
+[4919426][UART RECV: UartRec
+v.c:  53] buf[0] = aa
+[4919458][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 8D 00 00 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 07 
+[4919472][DEVICE: device.c: 425] on off:1
+[4919476][DEVICE: device.c: 438] left on off:1
+[4919481][DEVICE: device.c: 441] fire status:1
+[4919486][DEVICE: device.c: 443] power:1
+[4919490][DEVICE: device.c: 448] set temp:141
+[4919494][DEVICE: device.c: 456] 
+left Time:24
+
+[4920520][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4920553][DEVICE: device.c: 381] receive from device:AA AA 
+09 01 01 00 01 00 01 01 23 01 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9D 
+[4920567][DEVICE: device.c: 425] on off:1
+[4920571][DEVICE: device.c: 438] left on off:1
+[4920576][DEVICE: device.c: 441] fire status:1
+[4920581][DEVICE: device.c: 443] power:1
+[4920585][DEVICE: device.c: 448] set temp:291
+[4920589][DEVICE: device.c: 456] 
+left Time:23
+
+[4921614][UART RECV: UartRecv.c:  53] buf[0]
+ = aa
+[4921647][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 F3 00 00 16 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 6B 
+[4921661][DEVICE: device.c: 425] on off:1
+[4921665][DEVICE: device.c: 438] left on off:1
+[4921670][DEVICE: device.c: 441] fire status:1
+[4921674][DEVICE: device.c: 443] power:1
+[4921678][DEVICE: device.c: 448] set temp:243
+[4921683][DEVICE: device.c: 456] 
+left Time:22
+
+[4922710][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4922738][D
+EVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4922745][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 05 C2 00 00 15 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3D 
+[4922760][DEVICE: device.c: 425] on off:1
+[4922764][DEVICE: device.c: 438] left on off:1
+[4922768][DEVICE: device.c: 441] fire status:1
+[4922773][DEVICE: device.c: 443] power:5
+[4922777][DEVICE: device.c: 448] set temp:194
+[4922782][DEVICE: device.c: 456] 
+left Time:21
+
+[4923804][UART RECV: UartRecv.c:  53] buf[0]
+ = aa
+[4923838][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 05 66 00 00 14 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E0 
+[4923852][DEVICE: device.c: 425] on off:1
+[4923856][DEVICE: device.c: 438] left on off:1
+[4923861][DEVICE: device.c: 441] fire status:1
+[4923865][DEVICE: device.c: 443] power:5
+[4923870][DEVICE: device.c: 448] set temp:102
+[4923874][DEVICE: device.c: 456] 
+left Time:20
+
+[4924899][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4924931][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 
+0D 7C 00 00 13 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 FD 
+[4924945][DEVICE: device.c: 425] on off:1
+[4924950][DEVICE: device.c: 438] left on off:1
+[4924954][DEVICE: device.c: 441] fire status:1
+[4924959][DEVICE: device.c: 443] power:13
+[4924963][DEVICE: device.c: 448] set temp:124
+[4924967][DEVICE: device.c: 456] 
+left Time:19
+
+[4925993][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4926025][DEVICE: device.c: 381] rec
+eive from device:AA AA 09 01 01 00 01 00 01 0D 76 00 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 F6 
+[4926040][DEVICE: device.c: 425] on off:1
+[4926044][DEVICE: device.c: 438] left on off:1
+[4926048][DEVICE: device.c: 441] fire status:1
+[4926053][DEVICE: device.c: 443] power:13
+[4926057][DEVICE: device.c: 448] set temp:118
+[4926062][DEVICE: device.c: 456] 
+left Time:18
+
+[4927087][UART REC
+V: UartRecv.c:  53] buf[0] = aa
+[4927120][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 14 01 00 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 94 
+[4927134][DEVICE: device.c: 425] on off:1
+[4927139][DEVICE: device.c: 438] left on off:1
+[4927143][DEVICE: device.c: 441] fire status:1
+[4927148][DEVICE: device.c: 443] power:13
+[4927152][DEVICE: device.c: 448] set temp:276
+[4927157][DEVICE: device.c: 456] 
+left Time:17
+
+[4927738][DEVIC
+E: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4928182][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4928215][DEVICE: device.c: 381] receive from 
+device:AA AA 09 01 01 00 01 00 01 0D 8F 00 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0D 
+[4928229][DEVICE: device.c: 425] on off:1
+[4928233][DEVICE: device.c: 438] left on off:1
+[4928238][DEVICE: device.c: 441] fire status:1
+[4928242][DEVICE: device.c: 443] power:13
+[4928246][DEVICE: device.c: 448] set temp:143
+[4928251][DEVICE: device.c: 456] 
+left Time:16
+
+[4929276][UART RECV: UartRecv
+.c:  53] buf[0] = aa
+[4929310][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0A 90 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0A 
+[4929324][DEVICE: device.c: 425] on off:1
+[4929328][DEVICE: device.c: 438] left on off:1
+[4929333][DEVICE: device.c: 441] fire status:1
+[4929337][DEVICE: device.c: 443] power:10
+[4929341][DEVICE: device.c: 448] set temp:144
+[4929346][DEVICE: device.c: 456] 
+left Time:15
+
+[4930370][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4930402][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 0
+0 01 00 01 0A 4D 00 00 0E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C6 
+[4930417][DEVICE: device.c: 425] on off:1
+[4930421][DEVICE: device.c: 438] left on off:1
+[4930426][DEVICE: device.c: 441] fire status:1
+[4930430][DEVICE: device.c: 443] power:10
+[4930434][DEVICE: device.c: 448] set temp:77
+[4930439][DEVICE: device.c: 456] 
+left Time:14
+
+[4931464][UART RECV: UartRecv.c:  53] bu
+f[0] = aa
+[4931497][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 6F 00 00 0D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 EA 
+[4931511][DEVICE: device.c: 425] on off:1
+[4931515][DEVICE: device.c: 438] left on off:1
+[4931520][DEVICE: device.c: 441] fire status:1
+[4931525][DEVICE: device.c: 443] power:13
+[4931529][DEVICE: device.c: 448] set temp:111
+[4931533][DEVICE: device.c: 456] 
+left Time:13
+
+[49
+32559][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4932592][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 3D 00 00 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 B7 
+[4932606][DEVICE: device.c: 425] on off:1
+[4932610][DEVICE: device.c: 438] left on off:1
+[4932615][DEVICE: device.c: 441] fire status:1
+[4932619][DEVICE: device.c: 443] power:13
+[4932623][DEVICE: device.c: 448] set temp:61
+[4932628][DEVICE: device.c: 456] 
+left Time:12
+
+[4932738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4933653][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4933686][DEVICE: device.c: 381] receive
+ from device:AA AA 09 01 01 00 01 00 01 0D 23 00 00 0B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9C 
+[4933700][DEVICE: device.c: 425] on off:1
+[4933704][DEVICE: device.c: 438] left on off:1
+[4933709][DEVICE: device.c: 441] fire status:1
+[4933713][DEVICE: device.c: 443] power:13
+[4933717][DEVICE: device.c: 448] set temp:35
+[4933722][DEVICE: device.c: 456] 
+left Time:11
+
+[4934746][UART RECV: UartRecv.c:  
+53] buf[0] = aa
+[4934779][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D E6 00 00 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5E 
+[4934793][DEVICE: device.c: 425] on off:1
+[4934797][DEVICE: device.c: 438] left on off:1
+[4934802][DEVICE: device.c: 441] fire status:1
+[4934807][DEVICE: device.c: 443] power:13
+[4934811][DEVICE: device.c: 448] set temp:230
+[4934815][DEVICE: device.c: 456] 
+left Time:10
+
+[4935840][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4935872][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 
+00 01 01 0F 01 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 7B 
+[4935887][DEVICE: device.c: 425] on off:1
+[4935891][DEVICE: device.c: 438] left on off:1
+[4935895][DEVICE: device.c: 441] fire status:1
+[4935900][DEVICE: device.c: 443] power:1
+[4935904][DEVICE: device.c: 448] set temp:271
+[4935909][DEVICE: device.c: 456] 
+left Time:9
+
+[4936934][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4936967][DEVICE: device.c:
+ 381] receive from device:AA AA 09 01 01 00 01 00 01 01 6D 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D7 
+[4936981][DEVICE: device.c: 425] on off:1
+[4936985][DEVICE: device.c: 438] left on off:1
+[4936990][DEVICE: device.c: 441] fire status:1
+[4936995][DEVICE: device.c: 443] power:1
+[4936999][DEVICE: device.c: 448] set temp:109
+[4937003][DEVICE: device.c: 456] 
+left Time:8
+
+[4937738][DEVICE: devic
+e.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[
+4938030][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4938063][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 84 00 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 F9 
+[4938077][DEVICE: device.c: 425] on off:1
+[4938081][DEVICE: device.c: 438] left on off:1
+[4938086][DEVICE: device.c: 441] fire status:1
+[4938090][DEVICE: device.c: 443] power:13
+[4938094][DEVICE: device.c: 448] set temp:132
+[4938099][DEVICE: device.c: 456] 
+left Time:7
+
+[4939124][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4939157][DEVICE: device.c:
+ 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 8D 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 01 
+[4939171][DEVICE: device.c: 425] on off:1
+[4939176][DEVICE: device.c: 438] left on off:1
+[4939180][DEVICE: device.c: 441] fire status:1
+[4939185][DEVICE: device.c: 443] power:13
+[4939189][DEVICE: device.c: 448] set temp:141
+[4939193][DEVICE: device.c: 456] 
+left Time:6
+
+[4940219]
+[UART RECV: UartRecv.c:  53] buf[0] = aa
+[4940252][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0A 9F 00 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0F 
+[4940266][DEVICE: device.c: 425] on off:1
+[4940271][DEVICE: device.c: 438] left on off:1
+[4940275][DEVICE: device.c: 441] fire status:1
+[4940280][DEVICE: device.c: 443] power:10
+[4940284][DEVICE: device.c: 448] set temp:159
+[4940288][DEVICE: device.c: 456] 
+left Time:5
+
+[4941312][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4941344][DEVICE: device.c: 381] receive from 
+device:AA AA 09 01 01 00 01 00 01 01 D7 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3D 
+[4941359][DEVICE: device.c: 425] on off:1
+[4941363][DEVICE: device.c: 438] left on off:1
+[4941368][DEVICE: device.c: 441] fire status:1
+[4941372][DEVICE: device.c: 443] power:1
+[4941376][DEVICE: device.c: 448] set temp:215
+[4941381][DEVICE: device.c: 456] 
+left Time:4
+
+[4942406][UART RECV: UartRecv.c:  53] buf[0] 
+= aa
+[4942438][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 F6 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5B 
+[4942453][DEVICE: device.c: 425] on off:1
+[4942457][DEVICE: device.c: 438] left on off:1
+[4942461][DEVICE: device.c: 441] fire status:1
+[4942466][DEVICE: device.c: 443] power:1
+[4942470][DEVICE: device.c: 448] set temp:246
+[4942475][DEVICE: device.c: 456] 
+left Time:3
+
+[4942738][DEVIC
+E: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[
+4943500][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4943533][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 C7 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 2B 
+[4943547][DEVICE: device.c: 425] on off:1
+[4943551][DEVICE: device.c: 438] left on off:1
+[4943556][DEVICE: device.c: 441] fire status:1
+[4943561][DEVICE: device.c: 443] power:1
+[4943565][DEVICE: device.c: 448] set temp:199
+[4943569][DEVICE: device.c: 456] 
+left Time:2
+
+[4944594][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4944627][DEVICE: device.c
+: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 69 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 CC 
+[4944641][DEVICE: device.c: 425] on off:1
+[4944645][DEVICE: device.c: 438] left on off:1
+[4944650][DEVICE: device.c: 441] fire status:1
+[4944654][DEVICE: device.c: 443] power:1
+[4944658][DEVICE: device.c: 448] set temp:105
+[4944663][DEVICE: device.c: 456] 
+left Time:1
+
+[4945691][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4945723][DEVICE: device.c: 381] receive from device:AA AA 09 
+01 01 00 01 00 01 0D 39 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 A7 
+[4945737][DEVICE: device.c: 425] on off:1
+[4945742][DEVICE: device.c: 438] left on off:1
+[4945746][DEVICE: device.c: 441] fire status:1
+[4945751][DEVICE: device.c: 443] power:13
+[4945755][DEVICE: device.c: 448] set temp:57
+[4945760][DEVICE: device.c: 456] 
+left Time:0
+
+[4945764][DEVICE: device.c: 459] ~~~~start post~~~~
+[4945769][DEVICE: device.c: 229] targetTemp=135,stayTime=85,id=1
+[4945776][DEVICE: device.c: 235] ---------------------
+[4945781][DEVICE: device.c: 207] ~~~~~~~~~done~~~~~~~erro=0~~
+[4945787][DEVICE: device.c: 271] ************++++++*******
+[4945793][REMOTE: remote_client.c: 129] data send to server:{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"57"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+ , len=141
+[4945893][REMOTE: remote_client.c:  50] 
+server down :{ "data": { "degree": 135, "staySecond": 93, "cmd": "degree" }, "cmd": "execute" }
+
+[4945906][REMOTE: remote_client.c:  80] 
+ data :{ "degree": 135, "staySecond": 93, "cmd": "degree" }
+
+[4945916][REMOTE: remote_client.c:  97] temp=135
+[4945921][REMOTE: remote_client.c: 101] stayTime=93
+[4945926][REMOTE: remote_client.c:  86] cmd=degree
+[4945931][REMOTE: remote_client.c:  93] OnOff=1
+[4945936][REMOTE: remote_client.c:  58] text=execute
+[4945941][REMOTE: remote_client.c:  61] 11111111111111
+[4945947][REMOTE: remote_client.c: 120] ++++++++++++down ctrl cmd send++++++++++
+[4945954][DEVICE: device.c:  89] onOff:1
+[4945958][DEVICE: device.c: 101] set time:93 ^^^^^^
+[4945981][DEVICE: device.c: 113] send to device:>>|55 55 09 03 01 00 01 00 00 87 00 5D 00 00 01 9C 
+
+[4946784][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4946817][DEVICE: de
+vice.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 68 00 00 5C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 32 
+[4946832][DEVICE: device.c: 425] on off:1
+[4946836][DEVICE: device.c: 438] left on off:1
+[4946840][DEVICE: device.c: 441] fire status:1
+[4946845][DEVICE: device.c: 443] power:13
+[4946849][DEVICE: device.c: 448] set temp:104
+[4946854][DEVICE: device.c: 456] 
+left Time:92
+
+[4947738][DEVICE: device.c: 1
+44] _uart_reload_timer_handler, Memory 38204 bytes
+[4947878][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4947911][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 07 8D 00 00 5B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 50 
+[4947925][DEVICE: device.c: 425] on off:1
+[4947929][DEVICE: device.c: 438] left on off:1
+[4947934][DEVICE: device.c: 441] fire status:1
+[4947938][DEVICE: device.c: 443] power:7
+[4947943][DEVICE: device.c: 448] set temp:141
+[4947947][DEVICE: device.c: 456] 
+left Time:91
+
+[4948972][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4949004][DEVICE: device.c: 381] receive from device:AA AA 09 0
+1 01 00 01 00 01 07 F8 00 00 5A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 BA 
+[4949019][DEVICE: device.c: 425] on off:1
+[4949023][DEVICE: device.c: 438] left on off:1
+[4949027][DEVICE: device.c: 441] fire status:1
+[4949032][DEVICE: device.c: 443] power:7
+[4949036][DEVICE: device.c: 448] set temp:248
+[4949041][DEVICE: device.c: 456] 
+left Time:90
+
+[4950065][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4950098][DEVICE: device.c: 
+381] receive from device:AA AA 09 01 01 00 01 00 01 01 A4 00 00 59 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5F 
+[4950112][DEVICE: device.c: 425] on off:1
+[4950116][DEVICE: device.c: 438] left on off:1
+[4950121][DEVICE: device.c: 441] fire status:1
+[4950125][DEVICE: device.c: 443] power:1
+[4950130][DEVICE: device.c: 448] set temp:164
+[4950134][DEVICE: device.c: 456] 
+left Time:89
+
+[4951160][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4951193][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00
+ 01 00 01 01 26 01 00 58 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E1 
+[4951207][DEVICE: device.c: 425] on off:1
+[4951211][DEVICE: device.c: 438] left on off:1
+[4951216][DEVICE: device.c: 441] fire status:1
+[4951220][DEVICE: device.c: 443] power:1
+[4951225][DEVICE: device.c: 448] set temp:294
+[4951229][DEVICE: device.c: 456] 
+left Time:88
+
+[4952254][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4952286][DEVICE: device.c: 381] receive fr
+om device:AA AA 09 01 01 00 01 00 01 01 98 00 00 57 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 51 
+[4952301][DEVICE: device.c: 425] on off:1
+[4952305][DEVICE: device.c: 438] left on off:1
+[4952310][DEVICE: device.c: 441] fire status:1
+[4952314][DEVICE: device.c: 443] power:1
+[4952318][DEVICE: device.c: 448] set temp:152
+[4952323][DEVICE: device.c: 456] 
+left Time:87
+
+[4952738][DEVICE: devi
+ce.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4953348][UART RECV: Uart
+Recv.c:  53] buf[0] = aa
+[4953381][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 99 00 00 56 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 51 
+[4953395][DEVICE: device.c: 425] on off:1
+[4953399][DEVICE: device.c: 438] left on off:1
+[4953404][DEVICE: device.c: 441] fire status:1
+[4953408][DEVICE: device.c: 443] power:1
+[4953413][DEVICE: device.c: 448] set temp:153
+[4953417][DEVICE: device.c: 456] 
+left Time:86
+
+[4954444][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4954477][DEVICE: device.c: 381] receiv
+e from device:AA AA 09 01 01 00 01 00 01 0D 52 00 00 55 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 15 
+[4954491][DEVICE: device.c: 425] on off:1
+[4954495][DEVICE: device.c: 438] left on off:1
+[4954500][DEVICE: device.c: 441] fire status:1
+[4954505][DEVICE: device.c: 443] power:13
+[4954509][DEVICE: device.c: 448] set temp:82
+[4954513][DEVICE: device.c: 456] 
+left Time:85
+
+[4955538][UART RECV: UartR
+ecv.c:  53] buf[0] = aa
+[4955571][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 78 00 00 54 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3A 
+[4955585][DEVICE: device.c: 425] on off:1
+[4955589][DEVICE: device.c: 438] left on off:1
+[4955594][DEVICE: device.c: 441] fire status:1
+[4955599][DEVICE: device.c: 443] power:13
+[4955603][DEVICE: device.c: 448] set temp:120
+[4955607][DEVICE: device.c: 456] 
+left Time:84
+
+[4956631][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4956664][DEVICE: device.c: 381] receive from device:AA AA 09 01
+ 01 00 01 00 01 01 09 01 00 53 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 BF 
+[4956678][DEVICE: device.c: 425] on off:1
+[4956682][DEVICE: device.c: 438] left on off:1
+[4956687][DEVICE: device.c: 441] fire status:1
+[4956691][DEVICE: device.c: 443] power:1
+[4956695][DEVICE: device.c: 448] set temp:265
+[4956700][DEVICE: device.c: 456] 
+left Time:83
+
+[4957725][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4957738][DEVICE: device.c: 144] _ua
+rt_reload_timer_handler, Memory 38204 bytes
+[4957758][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 9D 00 00 52 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 51 
+[4957772][DEVICE: device.c: 425] on off:1
+[4957776][DEVICE: device.c: 438] left on off:1
+[4957781][DEVICE: device.c: 441] fire status:1
+[4957786][DEVICE: device.c: 443] power:1
+[4957790][DEVICE: device.c: 448] set temp:157
+[4957794][DEVICE: device.c: 456] 
+left Time:82
+
+[4958821][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4958854][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 
+01 04 63 00 00 51 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 19 
+[4958868][DEVICE: device.c: 425] on off:1
+[4958872][DEVICE: device.c: 438] left on off:1
+[4958877][DEVICE: device.c: 441] fire status:1
+[4958881][DEVICE: device.c: 443] power:4
+[4958885][DEVICE: device.c: 448] set temp:99
+[4958890][DEVICE: device.c: 456] 
+left Time:81
+
+[4959
+916][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4959948][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 04 81 00 00 50 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 36 
+[4959962][DEVICE: device.c: 425] on off:1
+[4959966][DEVICE: device.c: 438] left on off:1
+[4959971][DEVICE: device.c: 441] fire status:1
+[4959976][DEVICE: device.c: 443] power:4
+[4959980][DEVICE: device.c: 448] set temp:129
+[4959984][DEVICE: device.c: 456] 
+left Time:80
+
+[49610
+10][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4961042][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0A 46 00 00 4F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 
+[4961056][DEVICE: device.c: 425] on off:1
+[4961060][DEVICE: device.c: 438] left on off:1
+[4961065][DEVICE: device.c: 441] fire status:1
+[4961070][DEVICE: device.c: 443] power:10
+[4961074][DEVICE: device.c: 448] set temp:70
+[4961078][DEVICE: device.c: 456] 
+left Time:79
+
+[4962104][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4962137][DEVICE: device.c: 381] receive fr
+om device:AA AA 09 01 01 00 01 00 01 0A F2 00 00 4E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 AB 
+[4962151][DEVICE: device.c: 425] on off:1
+[4962156][DEVICE: device.c: 438] left on off:1
+[4962160][DEVICE: device.c: 441] fire status:1
+[4962165][DEVICE: device.c: 443] power:10
+[4962169][DEVICE: device.c: 448] set temp:242
+[4962173][DEVICE: device.c: 456] 
+left Time:78
+
+[4962738][DEVICE: device.c: 144] _uart_
+reload_timer_handler, Memory 38204 bytes
+[4963196][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4963228][DEVICE: device.c: 38
+1] receive from device:AA AA 09 01 01 00 01 00 01 01 83 00 00 4D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 32 
+[4963243][DEVICE: device.c: 425] on off:1
+[4963247][DEVICE: device.c: 438] left on off:1
+[4963251][DEVICE: device.c: 441] fire status:1
+[4963256][DEVICE: device.c: 443] power:1
+[4963260][DEVICE: device.c: 448] set temp:131
+[4963265][DEVICE: device.c: 456] 
+left Time:77
+[4964293][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4964326][DEVICE: device.c: 381] receive from device:AA AA
+ 09 01 01 00 01 00 01 0D 47 00 00 4C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 01 
+[4964340][DEVICE: device.c: 425] on off:1
+[4964344][DEVICE: device.c: 438] left on off:1
+[4964349][DEVICE: device.c: 441] fire status:1
+[4964353][DEVICE: device.c: 443] power:13
+[4964358][DEVICE: device.c: 448] set temp:71
+[4964362][DEVICE: device.c: 456] 
+left Time:76
+
+[4965385][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4965417][DEVICE: device.c: 381] receive f
+rom device:AA AA 09 01 01 00 01 00 01 0D F9 00 00 4B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 B2 
+[4965432][DEVICE: device.c: 425] on off:1
+[4965436][DEVICE: device.c: 438] left on off:1
+[4965440][DEVICE: device.c: 441] fire status:1
+[4965445][DEVICE: device.c: 443] power:13
+[4965449][DEVICE: device.c: 448] set temp:249
+[4965454][DEVICE: device.c: 456] 
+left Time:75
+
+[
+4966480][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4966513][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 82 00 00 4A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3A 
+[4966528][DEVICE: device.c: 425] on off:1
+[4966532][DEVICE: device.c: 438] left on off:1
+[4966536][DEVICE: device.c: 441] fire status:1
+[4966541][DEVICE: device.c: 443] power:13
+[4966545][DEVICE: device.c: 448] set temp:130
+[4966550][DEVICE: device.c: 456] 
+left Time:74
+
+[4967575][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4967607][DEVICE: device.c: 381] receive fro
+m device:AA AA 09 01 01 00 01 00 01 0D 91 00 00 49 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 48 
+[4967622][DEVICE: device.c: 425] on off:1
+[4967626][DEVICE: device.c: 438] left on off:1
+[4967630][DEVICE: device.c: 441] fire status:1
+[4967635][DEVICE: device.c: 443] power:13
+[4967639][DEVICE: device.c: 448] set temp:145
+[4967644][DEVICE: device.c: 456] 
+left Time:73
+
+[4967738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[4968669][UART RECV: UartRecv
+.c:  53] buf[0] = aa
+[4968701][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 4E 00 00 48 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 04 
+[4968715][DEVICE: device.c: 425] on off:1
+[4968720][DEVICE: device.c: 438] left on off:1
+[4968724][DEVICE: device.c: 441] fire status:1
+[4968729][DEVICE: device.c: 443] power:13
+[4968733][DEVICE: device.c: 448] set temp:78
+[4968738][DEVICE: device.c: 456] 
+left Time:72
+
+[4969763][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4969796][DEVICE: device.c: 381] receive from device:AA AA 09
+ 01 01 00 01 00 01 0D 66 00 00 47 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1B 
+[4969810][DEVICE: device.c: 425] on off:1
+[4969814][DEVICE: device.c: 438] left on off:1
+[4969819][DEVICE: device.c: 441] fire status:1
+[4969824][DEVICE: device.c: 443] power:13
+[4969828][DEVICE: device.c: 448] set temp:102
+[4969832][DEVICE: device.c: 456] 
+left Time:71
+
+[4970858][UART RECV: UartRecv.c: 
+ 53] buf[0] = aa
+[4970890][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 84 00 00 46 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 38 
+[4970905][DEVICE: device.c: 425] on off:1
+[4970909][DEVICE: device.c: 438] left on off:1
+[4970913][DEVICE: device.c: 441] fire status:1
+[4970918][DEVICE: device.c: 443] power:13
+[4970922][DEVICE: device.c: 448] set temp:132
+[4970927][DEVICE: device.c: 456] 
+left Time:70
+
+[
+4971952][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4971984][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 12 01 00 45 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C6 
+[4971999][DEVICE: device.c: 425] on off:1
+[4972003][DEVICE: device.c: 438] left on off:1
+[4972007][DEVICE: device.c: 441] fire status:1
+[4972012][DEVICE: device.c: 443] power:13
+[4972016][DEVICE: device.c: 448] set temp:274
+[4972021][DEVICE: device.c: 456] 
+left Time:69
+
+[4972738][DEVICE: device.c: 144] _uart_reload_
+timer_handler, Memory 38204 bytes
+[4973045][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4973078][DEVICE: device.c: 381] receive from 
+device:AA AA 09 01 01 00 01 00 01 01 E1 00 00 44 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 87 
+[4973092][DEVICE: device.c: 425] on off:1
+[4973096][DEVICE: device.c: 438] left on off:1
+[4973101][DEVICE: device.c: 441] fire status:1
+[4973105][DEVICE: device.c: 443] power:1
+[4973109][DEVICE: device.c: 448] set temp:225
+[4973114][DEVICE: device.c: 456] 
+left Time:68
+
+[4974139][UART RECV: UartRecv.c:  5
+3] buf[0] = aa
+[4974171][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 45 01 00 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 EB 
+[4974186][DEVICE: device.c: 425] on off:1
+[4974190][DEVICE: device.c: 438] left on off:1
+[4974194][DEVICE: device.c: 441] fire status:1
+[4974199][DEVICE: device.c: 443] power:1
+[4974203][DEVICE: device.c: 448] set temp:325
+[4974208][DEVICE: device.c: 456] 
+left Time:67
+
+[4975234][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4975267][DEVICE: device.c: 381] receive from device:
+AA AA 09 01 01 00 01 00 01 09 A7 00 00 42 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 53 
+[4975281][DEVICE: device.c: 425] on off:1
+[4975285][DEVICE: device.c: 438] left on off:1
+[4975290][DEVICE: device.c: 441] fire status:1
+[4975295][DEVICE: device.c: 443] power:9
+[4975299][DEVICE: device.c: 448] set temp:167
+[4975303][DEVICE: device.c: 456] 
+left Time:66
+
+[4976329][UART RECV: Uart
+Recv.c:  53] buf[0] = aa
+[4976361][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 09 36 01 00 41 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E2 
+[4976375][DEVICE: device.c: 425] on off:1
+[4976379][DEVICE: device.c: 438] left on off:1
+[4976384][DEVICE: device.c: 441] fire status:1
+[4976389][DEVICE: device.c: 443] power:9
+[4976393][DEVICE: device.c: 448] set temp:310
+[4976397][DEVICE: device.c: 456] 
+left Time:65
+
+[4977423][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4977456][DEVICE: device.c: 381] receive from device:AA AA 09 01 0
+1 00 01 00 01 07 A0 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 48 
+[4977470][DEVICE: device.c: 425] on off:1
+[4977474][DEVICE: device.c: 438] left on off:1
+[4977479][DEVICE: device.c: 441] fire status:1
+[4977484][DEVICE: device.c: 443] power:7
+[4977488][DEVICE: device.c: 448] set temp:160
+[4977492][DEVICE: device.c: 456] 
+left Time:64
+
+[4977738][DEVICE: device.c: 144] _uart_
+reload_timer_handler, Memory 38204 bytes
+[4978517][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4978550][DEVICE: device.
+c: 381] receive from device:AA AA 09 01 01 00 01 00 01 07 A2 00 00 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 49 
+[4978564][DEVICE: device.c: 425] on off:1
+[4978568][DEVICE: device.c: 438] left on off:1
+[4978573][DEVICE: device.c: 441] fire status:1
+[4978577][DEVICE: device.c: 443] power:7
+[4978582][DEVICE: device.c: 448] set temp:162
+[4978586][DEVICE: device.c: 456] 
+left Time:63
+
+[4979610][UART RECV: UartRe
+cv.c:  53] buf[0] = aa
+[4979643][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 C1 00 00 3E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 61 
+[4979657][DEVICE: device.c: 425] on off:1
+[4979661][DEVICE: device.c: 438] left on off:1
+[4979666][DEVICE: device.c: 441] fire status:1
+[4979670][DEVICE: device.c: 443] power:1
+[4979674][DEVICE: device.c: 448] set temp:193
+[4979679][DEVICE: device.c: 456] 
+left Time:62
+
+[4980704][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4980737][DEVICE: device.c: 381] receive from devic
+e:AA AA 09 01 01 00 01 00 01 01 19 01 00 3D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 B9 
+[4980751][DEVICE: device.c: 425] on off:1
+[4980755][DEVICE: device.c: 438] left on off:1
+[4980760][DEVICE: device.c: 441] fire status:1
+[4980764][DEVICE: device.c: 443] power:1
+[4980768][DEVICE: device.c: 448] set temp:281
+[4980773][DEVICE: device.c: 456] 
+left Time:61
+
+[4981798][UART RECV: UartRecv.c:  53] buf[0]
+ = aa
+[4981831][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 E0 00 00 3C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 7E 
+[4981845][DEVICE: device.c: 425] on off:1
+[4981849][DEVICE: device.c: 438] left on off:1
+[4981854][DEVICE: device.c: 441] fire status:1
+[4981858][DEVICE: device.c: 443] power:1
+[4981863][DEVICE: device.c: 448] set temp:224
+[4981867][DEVICE: device.c: 456] 
+left Time:60
+
+[4982738][DEVICE: device.c: 144] _uart_reload_timer_h
+andler, Memory 38204 bytes
+[4982892][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4982925][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 FA 00 00 3B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 97 
+[4982940][DEVICE: device.c: 425] on off:1
+[4982944][DEVICE: device.c: 438] left on off:1
+[4982949][DEVICE: device.c: 441] fire status:1
+[4982953][DEVICE: device.c: 443] power:1
+[4982957][DEVICE: device.c: 448] set temp:250
+[4982962][DEVICE: device.c: 456] 
+left Time:59
+
+[4983987][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4984020][DEVICE: device.c:
+ 381] receive from device:AA AA 09 01 01 00 01 00 01 01 D1 00 00 3A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 6D 
+[4984034][DEVICE: device.c: 425] on off:1
+[4984039][DEVICE: device.c: 438] left on off:1
+[4984043][DEVICE: device.c: 441] fire status:1
+[4984048][DEVICE: device.c: 443] power:1
+[4984052][DEVICE: device.c: 448] set temp:209
+[4984056][DEVICE: device.c: 456] 
+left Time:58
+
+[4985080][UART R
+ECV: UartRecv.c:  53] buf[0] = aa
+[4985113][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 6E 00 00 39 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 09 
+[4985127][DEVICE: device.c: 425] on off:1
+[4985131][DEVICE: device.c: 438] left on off:1
+[4985136][DEVICE: device.c: 441] fire status:1
+[4985140][DEVICE: device.c: 443] power:1
+[4985144][DEVICE: device.c: 448] set temp:110
+[4985149][DEVICE: device.c: 456] 
+left Time:57
+
+[4986176][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4986209][DEVICE: device.c: 3
+81] receive from device:AA AA 09 01 01 00 01 00 01 0D B8 00 00 38 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5E 
+[4986223][DEVICE: device.c: 425] on off:1
+[4986227][DEVICE: device.c: 438] left on off:1
+[4986232][DEVICE: device.c: 441] fire status:1
+[4986237][DEVICE: device.c: 443] power:13
+[4986241][DEVICE: device.c: 448] set temp:184
+[4986245][DEVICE: device.c: 456] 
+left Time:56
+
+[4987270][UART RECV: UartRecv
+.c:  53] buf[0] = aa
+[4987303][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 2A 01 00 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C4 
+[4987317][DEVICE: device.c: 425] on off:1
+[4987321][DEVICE: device.c: 438] left on off:1
+[4987326][DEVICE: device.c: 441] fire status:1
+[4987331][DEVICE: device.c: 443] power:1
+[4987335][DEVICE: device.c: 448] set temp:298
+[4987339][DEVICE: device.c: 456] 
+left Time:55
+
+[4987738][DEVICE: device.c: 144] _uart_reload_
+timer_handler, Memory 38204 bytes
+[4988364][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4988397][DEVICE: device.c: 381] receive from device:AA A
+A 09 01 01 00 01 00 01 01 D4 00 00 36 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 6C 
+[4988411][DEVICE: device.c: 425] on off:1
+[4988415][DEVICE: device.c: 438] left on off:1
+[4988420][DEVICE: device.c: 441] fire status:1
+[4988424][DEVICE: device.c: 443] power:1
+[4988428][DEVICE: device.c: 448] set temp:212
+[4988433][DEVICE: device.c: 456] 
+left Time:54
+
+[4989459][UART RECV: UartRecv.c:  53] buf[0] 
+= aa
+[4989491][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 39 01 00 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D1 
+[4989506][DEVICE: device.c: 425] on off:1
+[4989510][DEVICE: device.c: 438] left on off:1
+[4989514][DEVICE: device.c: 441] fire status:1
+[4989519][DEVICE: device.c: 443] power:1
+[4989523][DEVICE: device.c: 448] set temp:313
+[4989528][DEVICE: device.c: 456] 
+left Time:53
+
+[4990553][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4990585][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 0
+0 01 00 01 01 CB 00 00 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 61 
+[4990600][DEVICE: device.c: 425] on off:1
+[4990604][DEVICE: device.c: 438] left on off:1
+[4990608][DEVICE: device.c: 441] fire status:1
+[4990613][DEVICE: device.c: 443] power:1
+[4990617][DEVICE: device.c: 448] set temp:203
+[4990622][DEVICE: device.c: 456] 
+left Time:52
+
+[4991647][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4991679][DEVICE: device.c: 381] receive
+ from device:AA AA 09 01 01 00 01 00 01 01 F4 00 00 33 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 89 
+[4991694][DEVICE: device.c: 425] on off:1
+[4991698][DEVICE: device.c: 438] left on off:1
+[4991702][DEVICE: device.c: 441] fire status:1
+[4991707][DEVICE: device.c: 443] power:1
+[4991711][DEVICE: device.c: 448] set temp:244
+[4991716][DEVICE: device.c: 456] 
+left Time:51
+
+[4992738][DEVICE: device.c: 144] _uart_reload_timer_handler,
+ Memory 38204 bytes
+[4992745][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4992774][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 53 01 00 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E8 
+[4992788][DEVICE: device.c: 425] on off:1
+[4992792][DEVICE: device.c: 438] left on off:1
+[4992797][DEVICE: device.c: 441] fire status:1
+[4992801][DEVICE: device.c: 443] power:1
+[4992806][DEVICE: device.c: 448] set temp:339
+[4992810][DEVICE: device.c: 456] left Time:50
+
+[4993836][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4993868][DEVICE: device.c: 381] receive from device:AA A
+A 09 01 01 00 01 00 01 01 03 01 00 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 97 
+[4993882][DEVICE: device.c: 425] on off:1
+[4993886][DEVICE: device.c: 438] left on off:1
+[4993891][DEVICE: device.c: 441] fire status:1
+[4993896][DEVICE: device.c: 443] power:1
+[4993900][DEVICE: device.c: 448] set temp:259
+[4993904][DEVICE: device.c: 456] 
+left Time:49
+
+[4994930][UART RECV:
+ UartRecv.c:  53] buf[0] = aa
+[4994963][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 5A 01 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 ED 
+[4994977][DEVICE: device.c: 425] on off:1
+[4994981][DEVICE: device.c: 438] left on off:1
+[4994986][DEVICE: device.c: 441] fire status:1
+[4994991][DEVICE: device.c: 443] power:1
+[4994995][DEVICE: device.c: 448] set temp:346
+[4994999][DEVICE: device.c: 456] 
+left Time:48
+
+[4996024][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4996057][DEVICE: device.c: 381] receive from device:AA AA 
+09 01 01 00 01 00 01 01 08 01 00 2F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9A 
+[4996071][DEVICE: device.c: 425] on off:1
+[4996075][DEVICE: device.c: 438] left on off:1
+[4996080][DEVICE: device.c: 441] fire status:1
+[4996084][DEVICE: device.c: 443] power:1
+[4996089][DEVICE: device.c: 448] set temp:264
+[4996093][DEVICE: device.c: 456] 
+left Time:47
+
+[4997119][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4997151][DEVICE: device.c:
+ 381] receive from device:AA AA 09 01 01 00 01 00 01 01 63 01 00 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 F4 
+[4997165][DEVICE: device.c: 425] on off:1
+[4997169][DEVICE: device.c: 438] left on off:1
+[4997174][DEVICE: device.c: 441] fire status:1
+[4997179][DEVICE: device.c: 443] power:1
+[4997183][DEVICE: device.c: 448] set temp:355
+[4997187][DEVICE: device.c: 456] 
+left Time:46
+
+[4997738][DEVICE: device.c: 144] _uart_reload_timer_h
+andler, Memory 38204 bytes
+[499821
+3][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4998246][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 04 01 00 2D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 94 
+[4998260][DEVICE: device.c: 425] on off:1
+[4998264][DEVICE: device.c: 438] left on off:1
+[4998269][DEVICE: device.c: 441] fire status:1
+[4998273][DEVICE: device.c: 443] power:1
+[4998277][DEVICE: device.c: 448] set temp:260
+[4998282][DEVICE: device.c: 456] 
+left Time:45
+
+[4999306][UART RECV: UartRecv.c:  53] buf[0] = aa
+[4999338][DEVICE: device.c: 381] receive from
+ device:AA AA 09 01 01 00 01 00 01 01 47 01 00 2C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D6 
+[4999353][DEVICE: device.c: 425] on off:1
+[4999357][DEVICE: device.c: 438] left on off:1
+[4999361][DEVICE: device.c: 441] fire status:1
+[4999366][DEVICE: device.c: 443] power:1
+[4999370][DEVICE: device.c: 448] set temp:327
+[4999375][DEVICE: device.c: 456] 
+left Time:44
+
+[5000402][UAR
+T RECV: UartRecv.c:  53] buf[0] = aa
+[5000434][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 21 01 00 2B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 AF 
+[5000448][DEVICE: device.c: 425] on off:1
+[5000453][DEVICE: device.c: 438] left on off:1
+[5000457][DEVICE: device.c: 441] fire status:1
+[5000462][DEVICE: device.c: 443] power:1
+[5000466][DEVICE: device.c: 448] set temp:289
+[5000470][DEVICE: device.c: 456] 
+left Time:43
+
+[5001496][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5001528][DEVICE: device.c: 381] receive from device:AA A
+A 09 01 01 00 01 00 01 01 40 01 00 2A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 CD 
+[5001543][DEVICE: device.c: 425] on off:1
+[5001547][DEVICE: device.c: 438] left on off:1
+[5001551][DEVICE: device.c: 441] fire status:1
+[5001556][DEVICE: device.c: 443] power:1
+[5001560][DEVICE: device.c: 448] set temp:320
+[5001565][DEVICE: device.c: 456] 
+left Time:42
+
+[5002590][UART RECV: UartRecv
+.c:  53] buf[0] = aa
+[5002622][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 F6 00 00 29 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 81 
+[5002637][DEVICE: device.c: 425] on off:1
+[5002641][DEVICE: device.c: 438] left on off:1
+[5002646][DEVICE: device.c: 441] fire status:1
+[5002650][DEVICE: device.c: 443] power:1
+[5002654][DEVICE: device.c: 448] set temp:246
+[5002659][DEVICE: device.c: 456] 
+left Time:41
+
+[5002738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5003684][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5003717][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 
+01 01 96 00 00 28 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 20 
+[5003731][DEVICE: device.c: 425] on off:1
+[5003735][DEVICE: device.c: 438] left on off:1
+[5003740][DEVICE: device.c: 441] fire status:1
+[5003744][DEVICE: device.c: 443] power:1
+[5003748][DEVICE: device.c: 448] set temp:150
+[5003753][DEVICE: device.c: 456] 
+left Time:40
+
+[5004780][UART RECV: UartRecv
+.c:  53] buf[0] = aa
+[5004813][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 9E 00 00 27 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 33 
+[5004827][DEVICE: device.c: 425] on off:1
+[5004831][DEVICE: device.c: 438] left on off:1
+[5004836][DEVICE: device.c: 441] fire status:1
+[5004841][DEVICE: device.c: 443] power:13
+[5004845][DEVICE: device.c: 448] set temp:158
+[5004849][DEVICE: device.c: 456] 
+left Time:39
+
+[5005875][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5005908][DEVICE: device.c: 381] receive from device:AA
+ AA 09 01 01 00 01 00 01 0D 9F 00 00 26 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 33 
+[5005922][DEVICE: device.c: 425] on off:1
+[5005926][DEVICE: device.c: 438] left on off:1
+[5005931][DEVICE: device.c: 441] fire status:1
+[5005936][DEVICE: device.c: 443] power:13
+[5005940][DEVICE: device.c: 448] set temp:159
+[5005944][DEVICE: device.c: 456] 
+left Time:38
+
+[5006968][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5007000][DEVICE: device.c: 381] receive f
+rom device:AA AA 09 01 01 00 01 00 01 0A A9 00 00 25 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 39 
+[5007014][DEVICE: device.c: 425] on off:1
+[5007019][DEVICE: device.c: 438] left on off:1
+[5007023][DEVICE: device.c: 441] fire status:1
+[5007028][DEVICE: device.c: 443] power:10
+[5007032][DEVICE: device.c: 448] set temp:169
+[5007037][DEVICE: device.c: 456] 
+left Time:37
+
+[5007738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38
+204 bytes
+[5008063][
+UART RECV: UartRecv.c:  53] buf[0] = aa
+[5008096][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0A 59 00 00 24 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E8 
+[5008110][DEVICE: device.c: 425] on off:1
+[5008114][DEVICE: device.c: 438] left on off:1
+[5008119][DEVICE: device.c: 441] fire status:1
+[5008123][DEVICE: device.c: 443] power:10
+[5008127][DEVICE: device.c: 448] set temp:89
+[5008132][DEVICE: device.c: 456] 
+left Time:36
+
+[5009158][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5009191][DEVICE: device.c: 381] re
+ceive from device:AA AA 09 01 01 00 01 00 01 0D 97 00 00 23 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 28 
+[5009205][DEVICE: device.c: 425] on off:1
+[5009209][DEVICE: device.c: 438] left on off:1
+[5009214][DEVICE: device.c: 441] fire status:1
+[5009219][DEVICE: device.c: 443] power:13
+[5009223][DEVICE: device.c: 448] set temp:151
+[5009227][DEVICE: device.c: 456] 
+left Time:35
+
+[5010252][UART RECV: Uart
+Recv.c:  53] buf[0] = aa
+[5010284][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 05 9C 00 00 22 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 24 
+[5010299][DEVICE: device.c: 425] on off:1
+[5010303][DEVICE: device.c: 438] left on off:1
+[5010307][DEVICE: device.c: 441] fire status:1
+[5010312][DEVICE: device.c: 443] power:5
+[5010316][DEVICE: device.c: 448] set temp:156
+[5010321][DEVICE: device.c: 456] 
+left Time:34
+
+[5011346][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5011378][DEVICE: device.c: 381] receive from device:A
+A AA 09 01 01 00 01 00 01 05 8C 00 00 21 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 13 
+[5011393][DEVICE: device.c: 425] on off:1
+[5011397][DEVICE: device.c: 438] left on off:1
+[5011401][DEVICE: device.c: 441] fire status:1
+[5011406][DEVICE: device.c: 443] power:5
+[5011410][DEVICE: device.c: 448] set temp:140
+[5011415][DEVICE: device.c: 456] 
+left Time:33
+
+[5012440][UART RECV: UartRecv.c:  5
+3] buf[0] = aa
+[5012473][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 04 97 00 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1C 
+[5012487][DEVICE: device.c: 425] on off:1
+[5012491][DEVICE: device.c: 438] left on off:1
+[5012496][DEVICE: device.c: 441] fire status:1
+[5012500][DEVICE: device.c: 443] power:4
+[5012504][DEVICE: device.c: 448] set temp:151
+[5012509][DEVICE: device.c: 456] 
+left Time:32
+
+[5012738][DEVICE: device.c: 144] _uart_reload_timer_handler, Me
+mory 38204 bytes
+[
+5013534][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5013567][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 04 81 00 00 1F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 05 
+[5013582][DEVICE: device.c: 425] on off:1
+[5013586][DEVICE: device.c: 438] left on off:1
+[5013590][DEVICE: device.c: 441] fire status:1
+[5013595][DEVICE: device.c: 443] power:4
+[5013599][DEVICE: device.c: 448] set temp:129
+[5013604][DEVICE: device.c: 456] 
+left Time:31
+
+[5014629][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5014661][DEVICE: device.c: 381] re
+ceive from device:AA AA 09 01 01 00 01 00 01 06 91 00 00 1E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 16 
+[5014676][DEVICE: device.c: 425] on off:1
+[5014680][DEVICE: device.c: 438] left on off:1
+[5014684][DEVICE: device.c: 441] fire status:1
+[5014689][DEVICE: device.c: 443] power:6
+[5014693][DEVICE: device.c: 448] set temp:145
+[5014698][DEVICE: device.c: 456] 
+left Time:30
+
+[5015723][UART REC
+V: UartRecv.c:  53] buf[0] = aa
+[5015756][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 06 4E 00 00 1D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D2 
+[5015770][DEVICE: device.c: 425] on off:1
+[5015774][DEVICE: device.c: 438] left on off:1
+[5015779][DEVICE: device.c: 441] fire status:1
+[5015783][DEVICE: device.c: 443] power:6
+[5015787][DEVICE: device.c: 448] set temp:78
+[5015791][DEVICE: device.c: 456] 
+left Time:29
+
+[5016816][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5016849][DEVICE: device.c: 381] receive from device:AA AA 09 01 
+01 00 01 00 01 01 9D 00 00 1C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1B 
+[5016863][DEVICE: device.c: 425] on off:1
+[5016867][DEVICE: device.c: 438] left on off:1
+[5016872][DEVICE: device.c: 441] fire status:1
+[5016876][DEVICE: device.c: 443] power:1
+[5016880][DEVICE: device.c: 448] set temp:157
+[5016885][DEVICE: device.c: 456] 
+left Time:28
+
+[5017738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 byt
+es
+[5017910][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5017942][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 53 00 00 1B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D0 
+[5017957][DEVICE: device.c: 425] on off:1
+[5017961][DEVICE: device.c: 438] left on off:1
+[5017965][DEVICE: device.c: 441] fire status:1
+[5017970][DEVICE: device.c: 443] power:1
+[5017974][DEVICE: device.c: 448] set temp:83
+[5017978][DEVICE: device.c: 456] 
+left Time:27
+
+[5019006][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5019038][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00
+ 01 00 01 06 7B 00 00 1A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 FC 
+[5019053][DEVICE: device.c: 425] on off:1
+[5019057][DEVICE: device.c: 438] left on off:1
+[5019061][DEVICE: device.c: 441] fire status:1
+[5019066][DEVICE: device.c: 443] power:6
+[5019070][DEVICE: device.c: 448] set temp:123
+[5019075][DEVICE: device.c: 456] 
+left Time:26
+
+[5020100][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5020133][DEVICE: device
+.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 06 06 01 00 19 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 87 
+[5020147][DEVICE: device.c: 425] on off:1
+[5020151][DEVICE: device.c: 438] left on off:1
+[5020156][DEVICE: device.c: 441] fire status:1
+[5020160][DEVICE: device.c: 443] power:6
+[5020165][DEVICE: device.c: 448] set temp:262
+[5020169][DEVICE: device.c: 456] 
+left Time:25
+
+[5021193][UART
+ RECV: UartRecv.c:  53] buf[0] = aa
+[5021225][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 5C 01 00 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D7 
+[5021240][DEVICE: device.c: 425] on off:1
+[5021244][DEVICE: device.c: 438] left on off:1
+[5021248][DEVICE: device.c: 441] fire status:1
+[5021253][DEVICE: device.c: 443] power:1
+[5021257][DEVICE: device.c: 448] set temp:348
+[5021262][DEVICE: device.c: 456] 
+left Time:24
+
+[5022287][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5022320][DEVICE: device.c: 381] receive from de
+vice:AA AA 09 01 01 00 01 00 01 01 B6 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 2F 
+[5022334][DEVICE: device.c: 425] on off:1
+[5022338][DEVICE: device.c: 438] left on off:1
+[5022343][DEVICE: device.c: 441] fire status:1
+[5022347][DEVICE: device.c: 443] power:1
+[5022351][DEVICE: device.c: 448] set temp:182
+[5022356][DEVICE: device.c: 456] 
+left Time:23
+
+[5022738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5023383][UART RECV:
+ UartRecv.c:  53] buf[0] = aa
+[5023416][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D B3 00 00 16 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 37 
+[5023430][DEVICE: device.c: 425] on off:1
+[5023434][DEVICE: device.c: 438] left on off:1
+[5023439][DEVICE: device.c: 441] fire status:1
+[5023443][DEVICE: device.c: 443] power:13
+[5023448][DEVICE: device.c: 448] set temp:179
+[5023452][DEVICE: device.c: 456] 
+left Time:22
+
+[5024476][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5024509][DEVICE: device.c: 381] receive from device:AA AA 09 01 
+01 00 01 00 01 0D F3 00 00 15 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 76 
+[5024523][DEVICE: device.c: 425] on off:1
+[5024528][DEVICE: device.c: 438] left on off:1
+[5024532][DEVICE: device.c: 441] fire status:1
+[5024537][DEVICE: device.c: 443] power:13
+[5024541][DEVICE: device.c: 448] set temp:243
+[5024545][DEVICE: device.c: 456] 
+left Time:21
+
+[5025570][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5025603][DEVICE: device.
+c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 50 01 00 14 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C7 
+[5025617][DEVICE: device.c: 425] on off:1
+[5025621][DEVICE: device.c: 438] left on off:1
+[5025626][DEVICE: device.c: 441] fire status:1
+[5025631][DEVICE: device.c: 443] power:1
+[5025635][DEVICE: device.c: 448] set temp:336
+[5025639][DEVICE: device.c: 456] 
+left Time:20
+
+[5026663][UA
+RT RECV: UartRecv.c:  53] buf[0] = aa
+[5026696][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 AD 00 00 13 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 22 
+[5026710][DEVICE: device.c: 425] on off:1
+[5026715][DEVICE: device.c: 438] left on off:1
+[5026719][DEVICE: device.c: 441] fire status:1
+[5026724][DEVICE: device.c: 443] power:1
+[5026728][DEVICE: device.c: 448] set temp:173
+[5026732][DEVICE: device.c: 456] 
+left Time:19
+
+[5027738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 
+bytes
+[5027761][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5027793][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 05 AA 00 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 22 
+[5027808][DEVICE: device.c: 425] on off:1
+[5027812][DEVICE: device.c: 438] left on off:1
+[5027816][DEVICE: device.c: 441] fire status:1
+[5027821][DEVICE: device.c: 443] power:5
+[5027825][DEVICE: device.c: 448] set temp:170
+[5027830][DEVICE: device.c: 456] 
+left Time:18
+
+[5028855]
+[UART RECV: UartRecv.c:  53] buf[0] = aa
+[5028888][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 05 02 01 00 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 7A 
+[5028902][DEVICE: device.c: 425] on off:1
+[5028906][DEVICE: device.c: 438] left on off:1
+[5028911][DEVICE: device.c: 441] fire status:1
+[5028915][DEVICE: device.c: 443] power:5
+[5028920][DEVICE: device.c: 448] set temp:258
+[5028924][DEVICE: device.c: 456] 
+left Time:17
+
+[5029947][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5029980][DEVICE: device.c: 381] receive from device:AA AA 09 
+01 01 00 01 00 01 01 D7 00 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 49 
+[5029994][DEVICE: device.c: 425] on off:1
+[5029998][DEVICE: device.c: 438] left on off:1
+[5030003][DEVICE: device.c: 441] fire status:1
+[5030007][DEVICE: device.c: 443] power:1
+[5030012][DEVICE: device.c: 448] set temp:215
+[5030016][DEVICE: device.c: 456] 
+left Time:16
+
+[5031042][UART RECV: UartRecv.c:  
+53] buf[0] = aa
+[5031074][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 39 01 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 AB 
+[5031089][DEVICE: device.c: 425] on off:1
+[5031093][DEVICE: device.c: 438] left on off:1
+[5031097][DEVICE: device.c: 441] fire status:1
+[5031102][DEVICE: device.c: 443] power:1
+[5031106][DEVICE: device.c: 448] set temp:313
+[5031111][DEVICE: device.c: 456] 
+left Time:15
+
+[5032136][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5032168][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 
+01 00 01 01 B9 00 00 0E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 29 
+[5032182][DEVICE: device.c: 425] on off:1
+[5032186][DEVICE: device.c: 438] left on off:1
+[5032191][DEVICE: device.c: 441] fire status:1
+[5032196][DEVICE: device.c: 443] power:1
+[5032200][DEVICE: device.c: 448] set temp:185
+[5032204][DEVICE: device.c: 456] 
+left Time:14
+
+[5032738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5033230][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5033263][DEVICE: dev
+ice.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 35 01 00 0D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 A5 
+[5033277][DEVICE: device.c: 425] on off:1
+[5033281][DEVICE: device.c: 438] left on off:1
+[5033286][DEVICE: device.c: 441] fire status:1
+[5033291][DEVICE: device.c: 443] power:1
+[5033295][DEVICE: device.c: 448] set temp:309
+[5033299][DEVICE: device.c: 456] 
+left Time:13
+
+[5034324][UART R
+ECV: UartRecv.c:  53] buf[0] = aa
+[5034357][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 9F 00 00 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0D 
+[5034372][DEVICE: device.c: 425] on off:1
+[5034376][DEVICE: device.c: 438] left on off:1
+[5034380][DEVICE: device.c: 441] fire status:1
+[5034385][DEVICE: device.c: 443] power:1
+[5034389][DEVICE: device.c: 448] set temp:159
+[5034394][DEVICE: device.c: 456] 
+left Time:12
+
+[5035419][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5035452][DEVICE: device.c: 381] receive from d
+evice:AA AA 09 01 01 00 01 00 01 02 73 00 00 0B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E1 
+[5035466][DEVICE: device.c: 425] on off:1
+[5035470][DEVICE: device.c: 438] left on off:1
+[5035475][DEVICE: device.c: 441] fire status:1
+[5035479][DEVICE: device.c: 443] power:2
+[5035483][DEVICE: device.c: 448] set temp:115
+[5035488][DEVICE: device.c: 456] 
+left Time:11
+
+[5036512][UART RECV: UartRecv.c:  
+53] buf[0] = aa
+[5036544][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 02 E7 00 00 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 54 
+[5036559][DEVICE: device.c: 425] on off:1
+[5036563][DEVICE: device.c: 438] left on off:1
+[5036567][DEVICE: device.c: 441] fire status:1
+[5036572][DEVICE: device.c: 443] power:2
+[5036576][DEVICE: device.c: 448] set temp:231
+[5036581][DEVICE: device.c: 456] 
+left Time:10
+
+[5037606][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5037639][DEVICE: device.c: 381] receive from device:AA A
+A 09 01 01 00 01 00 01 01 F3 00 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5E 
+[5037653][DEVICE: device.c: 425] on off:1
+[5037657][DEVICE: device.c: 438] left on off:1
+[5037662][DEVICE: device.c: 441] fire status:1
+[5037666][DEVICE: device.c: 443] power:1
+[5037671][DEVICE: device.c: 448] set temp:243
+[5037675][DEVICE: device.c: 456] 
+left Time:9
+
+[5037738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5038702][UART RECV: UartRecv.c:  53] buf[0] 
+= aa
+[5038734][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 EC 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 56 
+[5038749][DEVICE: device.c: 425] on off:1
+[5038753][DEVICE: device.c: 438] left on off:1
+[5038757][DEVICE: device.c: 441] fire status:1
+[5038762][DEVICE: device.c: 443] power:1
+[5038766][DEVICE: device.c: 448] set temp:236
+[5038771][DEVICE: device.c: 456] 
+left Time:8
+
+[503979
+6][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5039828][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 47 01 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 B1 
+[5039843][DEVICE: device.c: 425] on off:1
+[5039847][DEVICE: device.c: 438] left on off:1
+[5039851][DEVICE: device.c: 441] fire status:1
+[5039856][DEVICE: device.c: 443] power:1
+[5039860][DEVICE: device.c: 448] set temp:327
+[5039865][DEVICE: device.c: 456] 
+left Time:7
+
+[5040890][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5040923][DEVICE: device.c: 381] receiv
+e from device:AA AA 09 01 01 00 01 00 01 01 F9 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 61 
+[5040937][DEVICE: device.c: 425] on off:1
+[5040941][DEVICE: device.c: 438] left on off:1
+[5040946][DEVICE: device.c: 441] fire status:1
+[5040950][DEVICE: device.c: 443] power:1
+[5040954][DEVICE: device.c: 448] set temp:249
+[5040959][DEVICE: device.c: 456] 
+left Time:6
+
+[5041986][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5042019][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 0
+0 01 00 01 06 CF 00 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 3B 
+[5042033][DEVICE: device.c: 425] on off:1
+[5042037][DEVICE: device.c: 438] left on off:1
+[5042042][DEVICE: device.c: 441] fire status:1
+[5042047][DEVICE: device.c: 443] power:6
+[5042051][DEVICE: device.c: 448] set temp:207
+[5042055][DEVICE: device.c: 456] 
+left Time:5
+
+[5042738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5043080][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5043113][DEVICE: device.c: 3
+81] receive from device:AA AA 09 01 01 00 01 00 01 06 C4 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 2F 
+[5043127][DEVICE: device.c: 425] on off:1
+[5043131][DEVICE: device.c: 438] left on off:1
+[5043136][DEVICE: device.c: 441] fire status:1
+[5043140][DEVICE: device.c: 443] power:6
+[5043145][DEVICE: device.c: 448] set temp:196
+[5043149][DEVICE: device.c: 456] 
+left Time:4
+
+[5044172][UART RECV: UartRecv.c:  53] buf[0] = aa
+
+[5044205][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 41 01 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 A7 
+[5044219][DEVICE: device.c: 425] on off:1
+[5044223][DEVICE: device.c: 438] left on off:1
+[5044228][DEVICE: device.c: 441] fire status:1
+[5044232][DEVICE: device.c: 443] power:1
+[5044236][DEVICE: device.c: 448] set temp:321
+[5044241][DEVICE: device.c: 456] 
+left Time:3
+
+[504
+5266][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5045299][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 F8 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5C 
+[5045313][DEVICE: device.c: 425] on off:1
+[5045317][DEVICE: device.c: 438] left on off:1
+[5045322][DEVICE: device.c: 441] fire status:1
+[5045326][DEVICE: device.c: 443] power:1
+[5045330][DEVICE: device.c: 448] set temp:248
+[5045335][DEVICE: device.c: 456] 
+left Time:2
+
+[5046362][UART RECV: UartRecv.c:  53] buf[0
+] = aa
+[5046394][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 9A 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 FD 
+[5046408][DEVICE: device.c: 425] on off:1
+[5046412][DEVICE: device.c: 438] left on off:1
+[5046417][DEVICE: device.c: 441] fire status:1
+[5046422][DEVICE: device.c: 443] power:1
+[5046426][DEVICE: device.c: 448] set temp:154
+[5046430][DEVICE: device.c: 456] 
+left Time:1
+
+[
+5047456][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5047489][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 A2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 04 
+[5047503][DEVICE: device.c: 425] on off:1
+[5047508][DEVICE: device.c: 438] left on off:1
+[5047512][DEVICE: device.c: 441] fire status:1
+[5047517][DEVICE: device.c: 443] power:1
+[5047521][DEVICE: device.c: 448] set temp:162
+[5047525][DEVICE: device.c: 456] 
+left Time:0
+
+[5047530][DEVICE: device.c: 459] ~~~~start post~~~~
+[5047535][DEVICE: device.c: 229] targetTemp=135,stayTime=93,id=1
+[5047541][DEVICE: device.c: 235] ---------------------
+[5047547][DEVICE: device.c: 207] ~~~~~~~~~done~~~~~~~erro=0~~
+[5047553][DEVICE: device.c: 271] ************++++++*******
+[5047559][REMOTE: remote_client.c: 129] data send to server:{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"162"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+ , len=142
+[5047738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5047769][REMOTE: remote_client.c:  50] 
+server down :{ "data": { "degree
+": 105, "staySecond": 35, "cmd": "degree" }, "cmd": "execute" }
+
+[5047782][REMOTE: remote_client.c:  80] 
+ data :{ "degree": 105, "staySecond": 35, "cmd": "degree" }
+
+[5047792][REMOTE: remote_client.c:  97] temp=105
+[5047797][REMOTE: remote_client.c: 101] stayTime=35
+[5047802][REMOTE: remote_client.c:  86] cmd=degree
+[5047807][REMOTE: remote_client.c:  93] OnOff=1
+[5047811][REMOTE: remote_client.c:  58] text=execute
+[5047817][REMOTE: remote_client.c:  61] 11111111111111
+[5047822][REMOTE: remote_client.c: 120] ++++++++++++down ctrl cmd send++++++++++
+[5047830][DEVICE: device.c:  89] onOff:1
+[5047834][DEVICE: device.c: 101] set time:35 ^^^^^^
+[5047856][DEVICE: device.c: 113] send to device:>>|55 55 09 03 01 00 01 00 00 69 00 23 00 00 01 44 
+[5048552][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5048585][DEVICE: dev
+ice.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0C 5E 00 00 22 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 ED 
+[5048599][DEVICE: device.c: 425] on off:1
+[5048603][DEVICE: device.c: 438] left on off:1
+[5048608][DEVICE: device.c: 441] fire status:1
+[5048613][DEVICE: device.c: 443] power:12
+[5048617][DEVICE: device.c: 448] set temp:94
+[5048621][DEVICE: device.c: 456] 
+left Time:34
+
+[
+5049647][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5049679][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0C 8B 00 00 21 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 19 
+[5049694][DEVICE: device.c: 425] on off:1
+[5049698][DEVICE: device.c: 438] left on off:1
+[5049702][DEVICE: device.c: 441] fire status:1
+[5049707][DEVICE: device.c: 443] power:12
+[5049711][DEVICE: device.c: 448] set temp:139
+[5049716][DEVICE: device.c: 456] 
+left Time:33
+
+[5050741][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5050773][DEVICE: device.c: 3
+81] receive from device:AA AA 09 01 01 00 01 00 01 08 1D 01 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 A7 
+[5050788][DEVICE: device.c: 425] on off:1
+[5050792][DEVICE: device.c: 438] left on off:1
+[5050796][DEVICE: device.c: 441] fire status:1
+[5050801][DEVICE: device.c: 443] power:8
+[5050805][DEVICE: device.c: 448] set temp:285
+[5050810][DEVICE: device.c: 456] 
+left Time:32
+
+[5051835][UA
+RT RECV: UartRecv.c:  53] buf[0] = aa
+[5051868][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 08 93 00 00 1F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1B 
+[5051882][DEVICE: device.c: 425] on off:1
+[5051886][DEVICE: device.c: 438] left on off:1
+[5051891][DEVICE: device.c: 441] fire status:1
+[5051895][DEVICE: device.c: 443] power:8
+[5051900][DEVICE: device.c: 448] set temp:147
+[5051904][DEVICE: device.c: 456] 
+left Time:31
+
+[5052738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5052928][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5052960][DEVICE: device.c: 381] receive from device:AA AA 09 01 
+01 00 01 00 01 03 1B 01 00 1E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 9E 
+[5052974][DEVICE: device.c: 425] on off:1
+[5052978][DEVICE: device.c: 438] left on off:1
+[5052983][DEVICE: device.c: 441] fire status:1
+[5052988][DEVICE: device.c: 443] power:3
+[5052992][DEVICE: device.c: 448] set temp:283
+[5052996][DEVICE: device.c: 456] 
+left Time:30
+
+[5054022][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5054055][DEVICE: device.c: 
+381] receive from device:AA AA 09 01 01 00 01 00 01 03 F6 00 00 1D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 77 
+[5054069][DEVICE: device.c: 425] on off:1
+[5054073][DEVICE: device.c: 438] left on off:1
+[5054078][DEVICE: device.c: 441] fire status:1
+[5054082][DEVICE: device.c: 443] power:3
+[5054086][DEVICE: device.c: 448] set temp:246
+[5054091][DEVICE: device.c: 456] 
+left Time:29
+
+[5055116][
+UART RECV: UartRecv.c:  53] buf[0] = aa
+[5055149][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 D0 00 00 1C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 4E 
+[5055163][DEVICE: device.c: 425] on off:1
+[5055167][DEVICE: device.c: 438] left on off:1
+[5055172][DEVICE: device.c: 441] fire status:1
+[5055177][DEVICE: device.c: 443] power:1
+[5055181][DEVICE: device.c: 448] set temp:208
+[5055185][DEVICE: device.c: 456] 
+left Time:28
+
+[5056211][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5056243][DEVICE: device.c: 381]
+ receive from device:AA AA 09 01 01 00 01 00 01 01 35 01 00 1B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 B3 
+[5056258][DEVICE: device.c: 425] on off:1
+[5056262][DEVICE: device.c: 438] left on off:1
+[5056266][DEVICE: device.c: 441] fire status:1
+[5056271][DEVICE: device.c: 443] power:1
+[5056275][DEVICE: device.c: 448] set temp:309
+[5056280][DEVICE: device.c: 456] 
+left Time:27
+
+[5057305][UART
+ RECV: UartRecv.c:  53] buf[0] = aa
+[5057338][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 7D 00 00 1A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 F9 
+[5057352][DEVICE: device.c: 425] on off:1
+[5057356][DEVICE: device.c: 438] left on off:1
+[5057361][DEVICE: device.c: 441] fire status:1
+[5057365][DEVICE: device.c: 443] power:1
+[5057369][DEVICE: device.c: 448] set temp:125
+[5057374][DEVICE: device.c: 456] 
+left Time:26
+
+[
+5057738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5058402][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5058435][DEVICE: de
+vice.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0C 9A 00 00 19 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 20 
+[5058449][DEVICE: device.c: 425] on off:1
+[5058453][DEVICE: device.c: 438] left on off:1
+[5058458][DEVICE: device.c: 441] fire status:1
+[5058462][DEVICE: device.c: 443] power:12
+[5058466][DEVICE: device.c: 448] set temp:154
+[5058471][DEVICE: device.c: 456] 
+left Time:25
+
+[5059495][UART RECV: Ua
+rtRecv.c:  53] buf[0] = aa
+[5059528][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0C 29 01 00 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 AF 
+[5059542][DEVICE: device.c: 425] on off:1
+[5059547][DEVICE: device.c: 438] left on off:1
+[5059551][DEVICE: device.c: 441] fire status:1
+[5059556][DEVICE: device.c: 443] power:12
+[5059560][DEVICE: device.c: 448] set temp:297
+[5059564][DEVICE: device.c: 456] 
+left Time:24
+
+[5060589][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5060621][DEVICE: device.c: 381] receive from device:AA AA 09 01 01
+ 00 01 00 01 01 41 01 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 BB 
+[5060636][DEVICE: device.c: 425] on off:1
+[5060640][DEVICE: device.c: 438] left on off:1
+[5060644][DEVICE: device.c: 441] fire status:1
+[5060649][DEVICE: device.c: 443] power:1
+[5060653][DEVICE: device.c: 448] set temp:321
+[5060658][DEVICE: device.c: 456] 
+left Time:23
+
+[5061681][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5061714][DEVICE: device.c: 
+381] receive from device:AA AA 09 01 01 00 01 00 01 01 F4 00 00 16 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 6C 
+[5061728][DEVICE: device.c: 425] on off:1
+[5061733][DEVICE: device.c: 438] left on off:1
+[5061737][DEVICE: device.c: 441] fire status:1
+[5061742][DEVICE: device.c: 443] power:1
+[5061746][DEVICE: device.c: 448] set temp:244
+[5061751][DEVICE: device.c: 456] 
+left Time:22
+
+[506
+2738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5062779][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5062812][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 7F 00 00 15 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 02 
+[5062826][DEVICE: device.c: 425] on off:1
+[5062830][DEVICE: device.c: 438] left on off:1
+[5062835][DEVICE: device.c: 441] fire status:1
+[5062840][DEVICE: device.c: 443] power:13
+[5062844][DEVICE: device.c: 448] set temp:127
+[5062848][DEVICE: device.c: 456] 
+left Time:21
+
+[5063873][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5063905][DEVICE: device.c:
+ 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 0F 01 00 14 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 92 
+[5063920][DEVICE: device.c: 425] on off:1
+[5063924][DEVICE: device.c: 438] left on off:1
+[5063928][DEVICE: device.c: 441] fire status:1
+[5063933][DEVICE: device.c: 443] power:13
+[5063937][DEVICE: device.c: 448] set temp:271
+[5063942][DEVICE: device.c: 456] 
+left Time:20
+
+[5064967][
+UART RECV: UartRecv.c:  53] buf[0] = aa
+[5065000][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 08 8E 00 00 13 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0A 
+[5065014][DEVICE: device.c: 425] on off:1
+[5065018][DEVICE: device.c: 438] left on off:1
+[5065023][DEVICE: device.c: 441] fire status:1
+[5065028][DEVICE: device.c: 443] power:8
+[5065032][DEVICE: device.c: 448] set temp:142
+[5065036][DEVICE: device.c: 456] 
+left Time:19
+
+[5066062][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5066094][DEVICE: device.c: 381] receive from
+ device:AA AA 09 01 01 00 01 00 01 08 4C 00 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C7 
+[5066108][DEVICE: device.c: 425] on off:1
+[5066112][DEVICE: device.c: 438] left on off:1
+[5066117][DEVICE: device.c: 441] fire status:1
+[5066121][DEVICE: device.c: 443] power:8
+[5066126][DEVICE: device.c: 448] set temp:76
+[5066130][DEVICE: device.c: 456] 
+left Time:18
+
+[5067154][UART RECV: UartRecv.
+c:  53] buf[0] = aa
+[5067187][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 F6 00 00 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 69 
+[5067201][DEVICE: device.c: 425] on off:1
+[5067205][DEVICE: device.c: 438] left on off:1
+[5067210][DEVICE: device.c: 441] fire status:1
+[5067214][DEVICE: device.c: 443] power:1
+[5067218][DEVICE: device.c: 448] set temp:246
+[5067223][DEVICE: device.c: 456] 
+left Time:17
+
+[506773
+8][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5068249][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5068282][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 0
+0 01 00 01 01 B8 00 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 2A 
+[5068296][DEVICE: device.c: 425] on off:1
+[5068300][DEVICE: device.c: 438] left on off:1
+[5068305][DEVICE: device.c: 441] fire status:1
+[5068309][DEVICE: device.c: 443] power:1
+[5068313][DEVICE: device.c: 448] set temp:184
+[5068318][DEVICE: device.c: 456] 
+left Time:16
+
+[5069343][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5069375][DEVICE: device.c: 381]
+ receive from device:AA AA 09 01 01 00 01 00 01 01 BD 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 2E 
+[5069390][DEVICE: device.c: 425] on off:1
+[5069394][DEVICE: device.c: 438] left on off:1
+[5069398][DEVICE: device.c: 441] fire status:1
+[5069403][DEVICE: device.c: 443] power:1
+[5069407][DEVICE: device.c: 448] set temp:189
+[5069412][DEVICE: device.c: 456] 
+left Time:15
+
+[5070437][UA
+RT RECV: UartRecv.c:  53] buf[0] = aa
+[5070470][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 AA 00 00 0E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1A 
+[5070484][DEVICE: device.c: 425] on off:1
+[5070488][DEVICE: device.c: 438] left on off:1
+[5070493][DEVICE: device.c: 441] fire status:1
+[5070497][DEVICE: device.c: 443] power:1
+[5070501][DEVICE: device.c: 448] set temp:170
+[5070506][DEVICE: device.c: 456] 
+left Time:14
+
+[5071532][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5071565][DEVICE: device.c: 381] receive 
+from device:AA AA 09 01 01 00 01 00 01 01 16 01 00 0D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 86 
+[5071579][DEVICE: device.c: 425] on off:1
+[5071583][DEVICE: device.c: 438] left on off:1
+[5071588][DEVICE: device.c: 441] fire status:1
+[5071592][DEVICE: device.c: 443] power:1
+[5071596][DEVICE: device.c: 448] set temp:278
+[5071601][DEVICE: device.c: 456] 
+left Time:13
+
+[5072626][UART RE
+CV: UartRecv.c:  53] buf[0] = aa
+[5072658][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 9F 00 00 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0D 
+[5072673][DEVICE: device.c: 425] on off:1
+[5072677][DEVICE: device.c: 438] left on off:1
+[5072681][DEVICE: device.c: 441] fire status:1
+[5072686][DEVICE: device.c: 443] power:1
+[5072690][DEVICE: device.c: 448] set temp:159
+[5072695][DEVICE: device.c: 456] 
+left Time:12
+
+[5072738][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5073720][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5073753][DEVICE: device.c: 381] receive from device:AA AA 09 0
+1 01 00 01 00 01 01 C3 00 00 0B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 30 
+[5073767][DEVICE: device.c: 425] on off:1
+[5073771][DEVICE: device.c: 438] left on off:1
+[5073776][DEVICE: device.c: 441] fire status:1
+[5073780][DEVICE: device.c: 443] power:1
+[5073784][DEVICE: device.c: 448] set temp:195
+[5073789][DEVICE: device.c: 456] 
+left Time:11
+
+[5074814][UART RECV: UartRecv.c:  53] buf[0]
+ = aa
+[5074847][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 66 00 00 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D2 
+[5074861][DEVICE: device.c: 425] on off:1
+[5074865][DEVICE: device.c: 438] left on off:1
+[5074870][DEVICE: device.c: 441] fire status:1
+[5074875][DEVICE: device.c: 443] power:1
+[5074879][DEVICE: device.c: 448] set temp:102
+[5074883][DEVICE: device.c: 456] 
+left Time:10
+
+[5075909][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5075942][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 
+00 01 01 ED 00 00 09 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 58 
+[5075956][DEVICE: device.c: 425] on off:1
+[5075960][DEVICE: device.c: 438] left on off:1
+[5075965][DEVICE: device.c: 441] fire status:1
+[5075969][DEVICE: device.c: 443] power:1
+[5075973][DEVICE: device.c: 448] set temp:237
+[5075978][DEVICE: device.c: 456] 
+left Time:9
+
+[5077003][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5077035][DEVICE: device.c
+: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 C2 00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 2C 
+[5077050][DEVICE: device.c: 425] on off:1
+[5077054][DEVICE: device.c: 438] left on off:1
+[5077058][DEVICE: device.c: 441] fire status:1
+[5077063][DEVICE: device.c: 443] power:1
+[5077067][DEVICE: device.c: 448] set temp:194
+[5077072][DEVICE: device.c: 456] 
+left Time:8
+
+[5077738][DEVI
+CE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[5078096][UART RECV: UartRe
+cv.c:  53] buf[0] = aa
+[5078129][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 A5 00 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 0E 
+[5078143][DEVICE: device.c: 425] on off:1
+[5078147][DEVICE: device.c: 438] left on off:1
+[5078152][DEVICE: device.c: 441] fire status:1
+[5078156][DEVICE: device.c: 443] power:1
+[5078160][DEVICE: device.c: 448] set temp:165
+[5078165][DEVICE: device.c: 456] 
+left Time:7
+
+[5079192][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5079224][DEVICE: device.c: 381] receive from devic
+e:AA AA 09 01 01 00 01 00 01 01 6E 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 D6 
+[5079238][DEVICE: device.c: 425] on off:1
+[5079243][DEVICE: device.c: 438] left on off:1
+[5079247][DEVICE: device.c: 441] fire status:1
+[5079252][DEVICE: device.c: 443] power:1
+[5079256][DEVICE: device.c: 448] set temp:110
+[5079261][DEVICE: device.c: 456] 
+left Time:6
+
+[5080286][UART RECV: UartRecv.c:
+  53] buf[0] = aa
+[5080318][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 FF 00 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 66 
+[5080333][DEVICE: device.c: 425] on off:1
+[5080337][DEVICE: device.c: 438] left on off:1
+[5080341][DEVICE: device.c: 441] fire status:1
+[5080346][DEVICE: device.c: 443] power:1
+[5080350][DEVICE: device.c: 448] set temp:255
+[5080355][DEVICE: device.c: 456] 
+left Time:5
+[5081383][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5081415][DEVICE: device.c: 3
+81] receive from device:AA AA 09 01 01 00 01 00 01 05 84 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 EE 
+[5081430][DEVICE: device.c: 425] on off:1
+[5081434][DEVICE: device.c: 438] left on off:1
+[5081439][DEVICE: device.c: 441] fire status:1
+[5081443][DEVICE: device.c: 443] power:5
+[5081447][DEVICE: device.c: 448] set temp:132
+[5081452][DEVICE: device.c: 456] 
+left Time:4
+
+[5082477][UART
+ RECV: UartRecv.c:  53] buf[0] = aa
+[5082510][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 05 E1 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 4A 
+[5082524][DEVICE: device.c: 425] on off:1
+[5082528][DEVICE: device.c: 438] left on off:1
+[5082533][DEVICE: device.c: 441] fire status:1
+[5082537][DEVICE: device.c: 443] power:5
+[5082541][DEVICE: device.c: 448] set temp:225
+[5082546][DEVICE: device.c: 456] 
+left Time:3
+
+[508273
+8][DEVICE: device.c: 144] _uart_reload_timer_handler, Memory 38204 bytes
+[508
+3569][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5083602][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 00 01 01 FA 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 5E 
+[5083616][DEVICE: device.c: 425] on off:1
+[5083620][DEVICE: device.c: 438] left on off:1
+[5083625][DEVICE: device.c: 441] fire status:1
+[5083629][DEVICE: device.c: 443] power:1
+[5083634][DEVICE: device.c: 448] set temp:250
+[5083638][DEVICE: device.c: 456] 
+left Time:2
+
+[5084662][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5084695][DEVICE: device.c: 381] receive fr
+om device:AA AA 09 01 01 00 01 00 01 01 A5 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 08 
+[5084709][DEVICE: device.c: 425] on off:1
+[5084714][DEVICE: device.c: 438] left on off:1
+[5084718][DEVICE: device.c: 441] fire status:1
+[5084723][DEVICE: device.c: 443] power:1
+[5084727][DEVICE: device.c: 448] set temp:165
+[5084732][DEVICE: device.c: 456] 
+left Time:1
+
+[5085760][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5085792][DEVICE: device.c: 381] receive from device:AA AA 09 01 01 00 01 
+00 01 0D 57 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 C5 
+[5085807][DEVICE: device.c: 425] on off:1
+[5085811][DEVICE: device.c: 438] left on off:1
+[5085815][DEVICE: device.c: 441] fire status:1
+[5085820][DEVICE: device.c: 443] power:13
+[5085824][DEVICE: device.c: 448] set temp:87
+[5085829][DEVICE: device.c: 456] 
+left Time:0
+
+[5085833][DEVICE: device.c: 459] ~~~~start post~~~~
+[5085838][DEVICE: device.c: 229] targetTemp=105,stayTime=35,id=1
+[5085845][DEVICE: device.c: 235] ---------------------
+[5085850][DEVICE: device.c: 207] ~~~~~~~~~done~~~~~~~erro=0~~
+[5085856][DEVICE: device.c: 271] ************++++++*******
+[5085862][REMOTE: remote_client.c: 129] data send to server:{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"87"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+ , len=141
+[5085911][REMOTE: remote_client.c:  50] 
+server down :{ "data": { "degree": 105, "staySecond": 127, "cmd": "degree" }, "cmd": "execute" }
+
+[5085924][REMOTE: remote_client.c:  80] 
+ data :{ "degree": 105, "staySecond": 127, "cmd": "degree" }
+
+[5085934][REMOTE: remote_client.c:  97] temp=105
+[5085939][REMOTE: remote_client.c: 101] stayTime=127
+[5085944][REMOTE: remote_client.c:  86] cmd=degree
+[5085949][REMOTE: remote_client.c:  93] OnOff=1
+[5085954][REMOTE: remote_client.c:  58] text=execute
+[5085959][REMOTE: remote_client.c:  61] 11111111111111
+[5085965][REMOTE: remote_client.c: 120] ++++++++++++down ctrl cmd send++++++++++
+[5085972][DEVICE: device.c:  89] onOff:1
+[5085976][DEVICE: device.c: 101] set time:127 ^^^^^^
+[5085999][DEVICE: device.c: 113] send to device:>>|55 55 09 03 01 00 01 00 00 69 00 7F 00 00 01 A0 
+[5086853][UART RECV: UartRecv.c:  53] buf[0] = aa
+[5086886][DEVICE: device.
+c: 381] receive from device:AA AA 09 01 01 00 01 00 01 0D 6E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 DC 
+[5086900][DEVICE: device.c: 425] on off:1
+[5086904][DEVICE: device.c: 438] left on off:1
+[5086909][DEVICE: device.c: 441] fire status:1
+[5086914][DEVICE: device.c: 443] power:13
+[5086918][DEVICE: device.c: 448] set temp:110
+[5086922][DEVICE: device.c: 456] 
+left Time:0
+
+

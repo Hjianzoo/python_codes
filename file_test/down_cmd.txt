@@ -1,0 +1,7 @@
+{ "data": { "degree": 200, "staySecond": 15, "cmd": "on" }, "cmd": "execute" }
+{ "data": { "degree": 190, "staySecond": 6, "cmd": "degree" }, "cmd": "execute" }
+{ "data": { "degree": 135, "staySecond": 48, "cmd": "degree" }, "cmd": "execute" }
+{ "data": { "degree": 135, "staySecond": 85, "cmd": "degree" }, "cmd": "execute" }
+{ "data": { "degree": 135, "staySecond": 93, "cmd": "degree" }, "cmd": "execute" }
+{ "data": { "degree": 105, "staySecond": 35, "cmd": "degree" }, "cmd": "execute" }
+{ "data": { "degree": 105, "staySecond": 127, "cmd": "degree" }, "cmd": "execute" }

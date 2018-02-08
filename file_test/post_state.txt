@@ -1,0 +1,8 @@
+{"device":"VANWARD_18F4","cmd":"attr","attr":[{"id":"temperature","value":"141"},{"id":"status","value":"0"},{"id":"ErroCode","value":"0"}]}
+{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"117"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+{"device":"VANWARD_18F4","cmd":"attr","attr":[{"id":"temperature","value":"63"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"222"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"181"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"57"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"162"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
+{"device":"VANWARD_18F4","cmd":"done","attr":[{"id":"temperature","value":"87"},{"id":"status","value":"1"},{"id":"ErroCode","value":"0"}]}
